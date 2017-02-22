@@ -9,27 +9,33 @@
 @import url(style-dh.css);
 @import url(style-di.css);
 @import url(style-dj.css);
+/* line 13, ../../OpenServer/domains/terem.loc/css/style.scss */
 .clear {
   clear: both; }
 
+/* line 16, ../../OpenServer/domains/terem.loc/css/style.scss */
 .center {
   text-align: center; }
 
+/* line 19, ../../OpenServer/domains/terem.loc/css/style.scss */
 .section_padding {
   padding: 20px 0; }
 
+/* line 23, ../../OpenServer/domains/terem.loc/css/style.scss */
 h1 {
   color: black;
   font-family: "RobotoSlab-Bold";
   font-size: 29px;
   font-weight: 700; }
 
+/* line 29, ../../OpenServer/domains/terem.loc/css/style.scss */
 h2 {
   display: block;
   color: black;
   font-family: "RobotoSlab-Regular";
   font-size: 24px; }
 
+/* line 35, ../../OpenServer/domains/terem.loc/css/style.scss */
 span.h2 {
   display: block;
   font-family: "RobotoSlab-Regular";
