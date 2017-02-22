@@ -39,6 +39,50 @@
 	}
 	display: none;
 }
+#js-form3{
+	z-index: 1000;
+	position: fixed;
+	top:15%;
+	left:0;
+	background: #fff;
+	padding: 47px;
+	text-align: center;
+	font-family: "RobotoSlab-Regular";
+	p{
+		font-size: 24px;
+		color:black;
+		margin-bottom: 29px;
+	}
+	input[type="text"]{
+		outline: none;
+		box-shadow: inset 2.5px 4.3px 5px rgba(225, 234, 240, 0.35);
+		border: 1px solid #ebf2f5;
+		border-radius: 30px;
+		padding: 13px 10px 13px 30px;
+		width: 290px;
+		margin-bottom: 21px;
+		color: #909ba2;
+		font-size: 14px;
+		font-family: "RobotoSlab-Regular";
+	}
+	display: none;
+}
+#js-form2{
+	z-index: 1000;
+	position: fixed;
+	top:15%;
+	left:0;
+	background: #fff;
+	padding: 47px;
+	text-align: center;
+	font-family: "RobotoSlab-Regular";
+	display: none;
+	p{
+		font-size: 24px;
+		color:black;
+		margin-top: 20px;
+	}
+}
 .db-close{
 	position: absolute;
 	top:-35px;
