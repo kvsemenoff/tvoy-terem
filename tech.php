@@ -25,7 +25,7 @@
 	<a class="button_4 button_4_color button_2__mright" href="#">Перезвоните мне</a>
 </div>
 
-<?php require_once('includes/footer.php'); ?>
+
 
 
 </body>
