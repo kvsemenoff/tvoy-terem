@@ -2,10 +2,14 @@
 .about__wrap { padding: 70px 0; }
 .about__wrap p { padding-bottom: 20px; }
 
-.descr { font-size: 24px; display: block; padding-bottom: 75px; }
+.title-block { font-family: "RobotoSlab-Bold"; font-size: 36px; padding: 0 15px 0 100px; font-weight: 400; }
+
+.descr { font-size: 24px; display: block; padding: 0 100px 75px; padding-bottom: 75px; padding-right: 100px; padding-left: 100px; }
 
 .paper { font-family: "RobotoSlab-Regular"; }
 .paper__wrap { margin: 0 -15px; }
+.paper__wrap .owl-prev, .paper__wrap .owl-next { color: transparent; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #ebf2f5; background-image: url("../img/left.png"); background-repeat: no-repeat; background-position: center; position: absolute; top: -105px; right: 43px; }
+.paper__wrap .owl-next { background-image: url("../img/right.png"); right: 0; }
 .paper__inner { padding: 0 15px 70px 15px; outline: none; }
 .paper__content { padding: 23px; border: 1px solid #ebf2f5; display: block; }
 .paper__content:hover { -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); }
@@ -16,8 +20,13 @@
 .paper__text { float: left; max-width: 320px; padding-left: 20px; }
 .paper__text p { padding: 15px 0 5px; }
 
+.galery { overflow: hidden; }
 .galery .img-wrap { display: block; float: left; width: 16.66%; }
 .galery .img-wrap img { width: 100%; height: auto; display: block; min-height: 100%; }
 
 @media only screen and (max-width: 1200px) { .paper__img { margin: 0 auto; float: none; }
   .paper__text { padding: 10px 0; float: none; max-width: none; } }
+@media only screen and (max-width: 770px) { .paper__wrap { margin: 0; }
+  .descr { padding: 0 100px 75px 20px; }
+  .title-block { padding: 0 20px 8px; }
+  .galery .img-wrap { width: 33.33%; } }
