@@ -140,6 +140,16 @@ $(document).ready(function(){
   }
 });
 
+  $("#owl-paper").owlCarousel({
+    loop:true,
+    nav:true, 
+    items:1,
+    responsive:{
+      770:{
+         items:2
+      }
+    }
+  });
 
 });
 
