@@ -3,13 +3,13 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="dd-menu-left">
-					<ul>
-						<li>
+					<ul >
+						<li class="id_menu">
 							<a href="#">Дома из бруса</a>
 							<ul class="dd-sub-menu">
 								<div class="dd-li-wrap">
 									<li><a href="#">Проекты домов</a></li>
-									<li>
+									<li >
 										<a class="dd-sum_item" href="#">Фото проектов</a>
 										<ul class="dd-sub-menu-2">
 											<li><a href="#">Информация для покупателя</a></li>
@@ -39,3 +39,22 @@
 		</div>
 	</div>
 </section>
+
+<script>
+	$('.id_menu').hover(function(){
+		$('ul', this).stop().slideDown(500);
+
+	},function(){
+		$('ul', this).stop().slideUp(500);	
+
+	});
+
+	// $('.id_menu').hover(function(){
+	// 	$('.dd-sub-menu').slideToggle(500);
+
+
+	// 	$(".id_menu").hover(function(){
+	// 		$(".dd-sub-menu").stop(true);
+	// 	});
+	// });
+</script>
