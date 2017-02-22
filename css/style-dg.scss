@@ -237,6 +237,9 @@ section.header-top {
     font-weight: 400;
     padding-bottom: 1px;
     border-bottom: 1px dashed #cebcbc;
+    &:hover {
+        border-bottom: 0;
+    }
 }
 .header-top-btn {
     margin-right: 0;
