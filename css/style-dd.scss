@@ -7,12 +7,16 @@
 .dd-title{
 	text-align:center;
 	color: black;
-	font-family: RobotoSlab;
+	font-family: "OpenSans-Bold";
 	font-size: 29px;
 	font-weight: 700;
 	padding: 57px 0px;
 }
+
+//Button_1
 .button_1{
+	font-family: "RobotoSlab-Regular";
+	font-size:15px;
 	display: inline-block;
 	box-shadow: 0 5px 13px rgba(86, 0, 1, 0.3);
 	width: 174px;
@@ -44,8 +48,44 @@
 	color:#fff !important;
 }
 
-
-
+//Button_2
+.dd-button_2__wrap{
+	text-align:center;
+	padding: 47px 0px;
+}
+.button_2{
+	display:inline-block;
+	border: 1px solid #dde6eb;
+	font-size:13px;
+	font-family: "RobotoSlab-Regular";
+	color:#99A8B0;
+	border-radius:18px;
+	height: 36px;
+	width: 124px;
+	text-align:center;
+	line-height:30px;
+	position: relative;
+}
+.button_2:after{
+	content:"";
+	position:absolute;
+	width: 20px;
+	height: 26px;
+	background: url(../img/str.jpg) no-repeat center;
+	right:-9px;
+	top:4px;
+}
+.button_2__mright{
+	margin-right: 40px;
+}
+.button_2:hover{
+	border: 1px solid #84b546;
+	color:black;
+}
+.button_2:active{
+	border: 1px solid black;
+	color:black;
+}
 
 
 
