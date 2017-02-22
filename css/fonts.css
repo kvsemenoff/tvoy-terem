@@ -22,4 +22,10 @@
   src: local("☺"), url("../fonts/RobotoSlab-Thin/RobotoSlab-Thin.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+   @font-face {
+  font-family: "rouble";
+  src: url("../fonts/rouble/rouble.eot");
+  src: local("☺"), url("../fonts/rouble/rouble.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
