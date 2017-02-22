@@ -1,0 +1,23 @@
+.about { font-family: "RobotoSlab-Regular"; }
+.about__wrap { padding: 70px 0; }
+.about__wrap p { padding-bottom: 20px; }
+
+.descr { font-size: 24px; display: block; padding-bottom: 75px; }
+
+.paper { font-family: "RobotoSlab-Regular"; }
+.paper__wrap { margin: 0 -15px; }
+.paper__inner { padding: 0 15px 70px 15px; outline: none; }
+.paper__content { padding: 23px; border: 1px solid #ebf2f5; display: block; }
+.paper__content:hover { -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); }
+.paper__title { font-family: "RobotoSlab-Bold"; color: #000; font-size: 16px; font-size: 15px; letter-spacing: -0.5px; background: url(../img/text_underline.png) bottom left repeat-x; }
+.paper__title:hover { color: #621212; background: none; }
+.paper__img { width: 170px; height: 120px; overflow: hidden; float: left; }
+.paper__img img { display: block; width: 100%; height: auto; min-height: 100%; }
+.paper__text { float: left; max-width: 320px; padding-left: 20px; }
+.paper__text p { padding: 15px 0 5px; }
+
+.galery .img-wrap { display: block; float: left; width: 16.66%; }
+.galery .img-wrap img { width: 100%; height: auto; display: block; min-height: 100%; }
+
+@media only screen and (max-width: 1200px) { .paper__img { margin: 0 auto; float: none; }
+  .paper__text { padding: 10px 0; float: none; max-width: none; } }
