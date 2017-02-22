@@ -9,7 +9,10 @@ $(document).ready(function(){
     winW = $(window).width(),
     winH = $(window).height();
     $(id).css("left", winW/2-$(id).width()/2);
-    $('body').css("overflow-y", "hidden");
+    $('body').css({
+      "overflow-y":"hidden",
+      paddingRight:"17px"
+  });
     $(id).fadeIn();
     $('#js-mask').fadeIn();
   });

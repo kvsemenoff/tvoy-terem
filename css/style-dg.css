@@ -177,7 +177,7 @@ section.header-top {
   padding-top: 13px;
   padding-bottom: 13px;
   min-height: 50px;
-  background: #560001; }
+  background: url(/img/headertop.jpg) #560001 0 0 repeat-y; }
 
 /* line 162, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .headertop-spb__phone {
