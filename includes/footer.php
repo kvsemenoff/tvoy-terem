@@ -31,12 +31,13 @@
 <div class="js-window" id="js-form1">
 <div class="db-popap">
 <h1 class="dd-title">Перезвоните</h1>
-<p class="db-title">мне</p>
-<img src="img/db-close.png" alt="img" class="db-close">
+<p>мне</p>
+<img src="img/crest.png" alt="img" class="db-close">
 		<form action="#" method="post" class="js-submit">
-			<input type="text" placeholder="Введите ваше имя" name="uname" class="input__view input_background1"><br>
-			<input type="text" placeholder="Введите ваш телефон" name="phone" class="input__view input_background2 js-mask"><br>
-			<input type="submit" name="submit" value="Заказать прямо сечас" class="button-1 db-form-button">
+			<input type="text" placeholder="Ваше имя" name="uname" ><br>
+			<input type="text" placeholder="Ваш телефон" name="phone" class="js-mask"><br>
+			<input type="submit" name="submit" value="Отправить запрос" class="button_3 db-button_3 js-submit">
 		</form>
 	</div>
 </div>
+<a href="#js-form1" name="js-modal">POPAP</a>
