@@ -1,7 +1,9 @@
 {
-"version": 3,
-"mappings": "AAAA,uBAAuB,CACtB,UAAU,CAAE,IAAI,CAChB,KAAK,CAAC,IAAI,CAGV,gBAAE,CACD,OAAO,CAAE,YAAY",
-"sources": ["style-db.scss"],
-"names": [],
-"file": "style-db.css"
+  "version": 3,
+  "file": "style-db.css",
+  "sources": [
+    "style-db.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA,AAAA,uBAAuB,CAAA;EACtB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,IAAI,GACV;;;AACD,AACC,aADY,CACZ,EAAE,CAAA;EACD,OAAO,EAAE,YAAY,GACrB"
 }

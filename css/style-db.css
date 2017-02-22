@@ -1,2 +1,10 @@
-.section_db-footer-view{background:#000;color:#fff}.db-footer-ul li{display:inline-block}
+/* line 1, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+.section_db-footer-view {
+  background: #000;
+  color: #fff; }
+
+/* line 6, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+.db-footer-ul li {
+  display: inline-block; }
+
 /*# sourceMappingURL=style-db.css.map */

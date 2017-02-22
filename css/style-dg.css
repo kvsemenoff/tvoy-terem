@@ -8,15 +8,15 @@ section.contact {
 
 /* line 7, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .contact-item__block {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
-/* line 10, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+/* line 11, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .contact-block {
   border: 1px solid #ebf2f5;
   padding: 35px 30px 35px 30px;
   text-align: left;
-  position: relative;
-  max-height: 190px; }
+  position: relative; }
 
 /* line 17, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .contact-absolute {
@@ -120,17 +120,82 @@ section.contact {
   font-weight: 400;
   line-height: 32px; }
 
+/* Application */
+/* line 110, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+section.application {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(/img/zaiavka.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat; }
+
+/* line 118, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+h2.application-title {
+  font-family: "RobotoSlab-Bold";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 45px; }
+
+/* line 127, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+span.application-title__span {
+  font-family: "RobotoSlab-Regular";
+  font-size: 25px;
+  font-weight: 400; }
+
+/* line 132, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+a.apllication-btn {
+  display: block;
+  width: 275px;
+  margin: auto; }
+
+/* line 137, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.apllication-textblock {
+  text-align: center;
+  margin-top: 60px; }
+
+/* line 141, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.application-toptext {
+  color: black;
+  font-family: "RobotoSlab-Regular";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 760px;
+  margin: auto; }
+
+/* line 151, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.application-text__span {
+  font-size: 14px;
+  line-height: 20px; }
+
 @media only screen and (min-width: 992px) {
-  /* line 118, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 165, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   section.contact {
-    padding-top: 70px; } }
+    padding-top: 70px; }
+  /* line 169, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  section.application {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+  /* line 173, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .contact-item__block {
+    margin-bottom: 0px; }
+  /* line 176, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .contact-block {
+    height: 282px; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 124, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 182, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block1 {
     width: 26%; }
-  /* line 127, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 185, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block3 {
-    width: 49%; } }
+    width: 49%; }
+  /* line 188, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .contact-block {
+    max-height: 190px; } }
 
 /*# sourceMappingURL=style-dg.css.map */
