@@ -1,0 +1,93 @@
+/* line 1, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+.about {
+  font-family: "RobotoSlab-Regular"; }
+  /* line 3, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .about__wrap {
+    padding: 70px 0; }
+    /* line 5, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+    .about__wrap p {
+      padding-bottom: 20px; }
+
+/* line 10, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+.descr {
+  font-size: 24px;
+  display: block;
+  padding-bottom: 75px; }
+
+/* line 15, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+.paper {
+  font-family: "RobotoSlab-Regular"; }
+  /* line 17, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__wrap {
+    margin: 0 -15px; }
+  /* line 20, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__inner {
+    padding: 0 15px 70px 15px;
+    outline: none; }
+  /* line 24, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__content {
+    padding: 23px;
+    border: 1px solid #ebf2f5;
+    display: block; }
+    /* line 28, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+    .paper__content:hover {
+      -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); }
+  /* line 34, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__title {
+    font-family: "RobotoSlab-Bold";
+    color: #000;
+    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    background: url(../img/text_underline.png) bottom left repeat-x; }
+    /* line 41, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+    .paper__title:hover {
+      color: #621212;
+      background: none; }
+  /* line 46, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__img {
+    width: 170px;
+    height: 120px;
+    overflow: hidden;
+    float: left; }
+    /* line 51, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+    .paper__img img {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 100%; }
+  /* line 58, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__text {
+    float: left;
+    max-width: 320px;
+    padding-left: 20px; }
+    /* line 62, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+    .paper__text p {
+      padding: 15px 0 5px; }
+
+/* line 68, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+.galery .img-wrap {
+  display: block;
+  float: left;
+  width: 16.66%; }
+  /* line 72, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .galery .img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+    min-height: 100%; }
+
+@media only screen and (max-width: 1200px) {
+  /* line 83, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__img {
+    margin: 0 auto;
+    float: none; }
+  /* line 87, ../../OpenServer/domains/terem.loc/css/style-de.scss */
+  .paper__text {
+    padding: 10px 0;
+    float: none;
+    max-width: none; } }
+
+/*# sourceMappingURL=style-de.css.map */
