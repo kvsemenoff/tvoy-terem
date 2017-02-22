@@ -1,93 +1,46 @@
-/* line 1, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-.about {
-  font-family: "RobotoSlab-Regular"; }
-  /* line 3, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .about__wrap {
-    padding: 70px 0; }
-    /* line 5, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-    .about__wrap p {
-      padding-bottom: 20px; }
+.about { font-family: "RobotoSlab-Regular"; }
+.about__wrap { padding: 70px 0; }
+.about__wrap p { padding-bottom: 20px; }
 
-/* line 10, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-.descr {
-  font-size: 24px;
-  display: block;
-  padding-bottom: 75px; }
+.title-block { font-family: "RobotoSlab-Bold"; font-size: 36px; padding: 0 15px 0 100px; font-weight: 400; }
 
-/* line 15, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-.paper {
-  font-family: "RobotoSlab-Regular"; }
-  /* line 17, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__wrap {
-    margin: 0 -15px; }
-  /* line 20, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__inner {
-    padding: 0 15px 70px 15px;
-    outline: none; }
-  /* line 24, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__content {
-    padding: 23px;
-    border: 1px solid #ebf2f5;
-    display: block; }
-    /* line 28, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-    .paper__content:hover {
-      -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
-      -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); }
-  /* line 34, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__title {
-    font-family: "RobotoSlab-Bold";
-    color: #000;
-    font-size: 16px;
-    font-size: 15px;
-    letter-spacing: -0.5px;
-    background: url(../img/text_underline.png) bottom left repeat-x; }
-    /* line 41, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-    .paper__title:hover {
-      color: #621212;
-      background: none; }
-  /* line 46, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__img {
-    width: 170px;
-    height: 120px;
-    overflow: hidden;
-    float: left; }
-    /* line 51, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-    .paper__img img {
-      display: block;
-      width: 100%;
-      height: auto;
-      min-height: 100%; }
-  /* line 58, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__text {
-    float: left;
-    max-width: 320px;
-    padding-left: 20px; }
-    /* line 62, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-    .paper__text p {
-      padding: 15px 0 5px; }
+.descr { font-size: 24px; display: block; padding: 0 100px 75px; padding-bottom: 75px; padding-right: 100px; padding-left: 100px; }
 
-/* line 68, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-.galery .img-wrap {
-  display: block;
-  float: left;
-  width: 16.66%; }
-  /* line 72, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .galery .img-wrap img {
-    width: 100%;
-    height: auto;
-    display: block;
-    min-height: 100%; }
+.paper { font-family: "RobotoSlab-Regular"; }
+.paper__wrap { margin: 0 -15px; }
+.paper__wrap .owl-prev, .paper__wrap .owl-next { color: transparent; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #ebf2f5; background-image: url("../img/left.png"); background-repeat: no-repeat; background-position: center; position: absolute; top: -105px; right: 43px; }
+.paper__wrap .owl-next { background-image: url("../img/right.png"); right: 0; }
+.paper__inner { padding: 0 15px 70px 15px; outline: none; }
+.paper__content { padding: 23px; border: 1px solid #ebf2f5; display: block; }
+.paper__content:hover { -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.1); }
+.paper__title { font-family: "RobotoSlab-Bold"; color: #000; font-size: 16px; font-size: 15px; letter-spacing: -0.5px; background: url(../img/text_underline.png) bottom left repeat-x; }
+.paper__title:hover { color: #621212; background: none; }
+.paper__img { width: 170px; height: 120px; overflow: hidden; float: left; }
+.paper__img img { display: block; width: 100%; height: auto; min-height: 100%; }
+.paper__text { float: left; max-width: 320px; padding-left: 20px; }
+.paper__text p { padding: 15px 0 5px; }
 
-@media only screen and (max-width: 1200px) {
-  /* line 83, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__img {
-    margin: 0 auto;
-    float: none; }
-  /* line 87, ../../OpenServer/domains/terem.loc/css/style-de.scss */
-  .paper__text {
-    padding: 10px 0;
-    float: none;
-    max-width: none; } }
+.galery { overflow: hidden; }
+.galery .img-wrap { display: block; float: left; width: 16.66%; overflow: hidden; }
+.galery .img-wrap:hover img { transform: scale(1.1); }
+.galery .img-wrap img { width: 100%; height: auto; display: block; min-height: 100%; transition: 0.8s all ease; }
 
-/*# sourceMappingURL=style-de.css.map */
+.advantages { font-family: "RobotoSlab-Regular"; font-size: 16px; }
+.advantages__item { padding-bottom: 30px; float: left; width: 16.66%; }
+
+.advantages p { padding-top: 20px; font-size: 20px; font-family: "RobotoSlab-Bold"; }
+
+@media only screen and (max-width: 1200px) { .paper__img { margin: 0 auto; float: none; }
+  .paper__text { padding: 10px 0; float: none; max-width: none; } }
+@media only screen and (max-width: 1000px) { .advantages__item { width: 33.33%; } }
+@media only screen and (max-width: 770px) { .paper__wrap { margin: 0; }
+  .descr { padding: 0 100px 75px 0; }
+  .title-block { padding: 0 0 8px; }
+  .galery .img-wrap { width: 33.33%; } }
+@media only screen and (max-width: 550px) { .about__wrap { padding: 20px 0; }
+  .about__text { padding: 0; }
+  .descr { font-size: 16px; padding: 0 100px 25px 0; }
+  .title-block { font-size: 18px; }
+  .advantages__item { width: 50%; }
+  .advantages p { font-size: 16px; padding-top: 5px; } }
+@media only screen and (max-width: 400px) { .advantages__item { width: 100%; padding-left: 20px; } }

@@ -27,9 +27,16 @@ h1{
     font-weight: 700;
 }
 h2{	
+    display: block;
     color: black;
     font-family: "RobotoSlab-Regular";
     font-size: 24px;
+}
+span.h2{
+    display: block;
+    font-family: "RobotoSlab-Regular";
+    font-size: 24px;
+    margin-bottom: 50px;
 }
 
 @media only screen and (min-width : 320px) {
