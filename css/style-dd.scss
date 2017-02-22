@@ -5,14 +5,17 @@
 	text-align:center;
 }
 .dd-title{
-	text-align:center;
+	
 	color: black;
 	font-family: "RobotoSlab-Bold";
 	font-size: 29px;
 	font-weight: 700;
-	padding: 57px 0px;
+	
 }
-
+.dop{
+	padding: 57px 0px;
+	text-align:center;
+}
 //Button_1
 .button_1{
 	font-family: "RobotoSlab-Regular";
@@ -211,6 +214,7 @@
 	}
 }
 .dd-slide-box_right{
+	padding-top: 25px;
 	span{
 		display: inline-block;
 		color: black;
@@ -231,6 +235,7 @@
 	span{
 		display: inline-block;
 		border-bottom:1px dashed #ABBAC2;
+		font-size: 19px;
 	}
 }
 .dd-slide-but{
