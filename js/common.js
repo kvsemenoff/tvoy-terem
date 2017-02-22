@@ -120,7 +120,7 @@ $(document).ready(function(){
         nav:true, 
         autoplay:false,
         smartSpeed:1000,
-        margin:25,
+        margin:0,
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
