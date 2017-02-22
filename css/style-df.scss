@@ -9,14 +9,17 @@
 	width: 100%;
 	margin: 0 auto;
 	padding:0 10px;
-	h1,h2{
+	.title-block,.descr{
 		padding-left: 30px;
 	}
-	h2{
+	.descr{
 		padding-bottom: 22px;
+		font-family: "RobotoSlab-Regular";
 	}
 }
-
+.descr{	
+	font-family: "RobotoSlab-Regular";
+}
 .df-newblock{
 	text-align: center;
 }
@@ -265,13 +268,13 @@ select:focus, select:active{
 @media only screen and (min-width : 992px) {
 	.dfcontainer{
 		padding:0px;
-		h1,h2{
-			padding-left: 140px;
+		.title-block, .descr{
+			padding-left: 140px !important;
 		}
-		h1{
+		.title-block{
 			padding-top: 40px;
 		}
-		h2{
+		.descr{
 			padding-bottom: 62px;
 		}
 	}	
