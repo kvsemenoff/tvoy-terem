@@ -2,6 +2,7 @@
 	background: #000;
 	color:#fff;
 	font-family: "RobotoSlab-Regular";
+	padding: 40px 0 !important;
 	a{
 		color:#fff;
 		border-bottom: 1px dashed #818181; 
@@ -14,8 +15,13 @@
 	}
 }
 .db-footer-ul{
+	padding-bottom: 35px;
+	li:first-child{
+		padding-left: 0px;
+	}
 	li{
 		display: inline-block;
+		padding-left: 23px !important;
 
 	}
 }
@@ -24,7 +30,33 @@
 	font-size: 13px;
 }
 .db-city{
-	background: url();
+	background: url("../img/bg-email.png") no-repeat top left 13px;
+	font-size: 10px;
+	color: #cebcbc;
+	padding: 3px 28px 41px 19px;
+}
+.db-city2{
+	background: url("../img/bg-email.png") no-repeat top left 13px;
+	font-size: 10px;
+	color: #cebcbc;
+	padding: 3px 28px 41px 19px;
+}
+.db-p-two{
+	color: #cebcbc;
+	font-size: 12px;
+
+}
+.db-p-two-float{
+	float:left;
+}
+.db-number{
+	font-size: 16px;
+	color: white;
+	font-family: "RobotoSlab-Bold";
+}
+.db-span-out{
+	display: inline-block;
+	margin-left: 77px;
 }
 @media only screen and (min-width : 320px) {
 }
