@@ -1,14 +1,11 @@
 ﻿<?php require_once('includes/header.php'); ?>
-
-<br><br>		
-<a href="#" class="button-1">Заказать звонок</a>	
-<br><br>	
-<h1>Пример заголовка</h1>
-<br><br>	
-<form action="#">
-	<input type="text" value="" placeholder="Инпут тайп текст">		
-	<input type="submit" value="Значение" placeholder="Инпут тайп сабмит">		
-</form>		
+	
+<h1>Кнопки</h1>
+<div class="dd-button_1__wrap">
+	<a class="button_1" href="#">Подобрать</a>
+	<a class="button_1" href="#">Подобрать</a>
+	<a class="button_1" href="#">Подобрать</a>
+</div>	
 
 
 <?php require_once('includes/footer.php'); ?>
