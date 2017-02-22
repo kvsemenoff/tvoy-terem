@@ -38,7 +38,7 @@ section { font-family: "RobotoSlab-Regular"; }
 
 .main-block { height: 515px; padding-top: 120px; background: url(../img/fon1.jpg) center top no-repeat; }
 
-.mini-blocks { position: relative; }
+.mini-blocks { margin-bottom: 30px; position: relative; }
 .mini-blocks::before { content: ""; width: 57px; height: 63px; position: absolute; bottom: -35px; left: 50%; margin-left: -28px; z-index: 1000; background: url(../img/search.png); }
 
 .mini-block { float: left; width: 25%; display: block; border: 1px solid rgba(255, 255, 255, 0.4); border-bottom: none; position: relative; overflow: hidden; height: 180px; }

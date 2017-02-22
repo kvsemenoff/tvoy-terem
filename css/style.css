@@ -30,8 +30,16 @@ h1 {
 
 /* line 29, ../../OpenServer/domains/terem.loc/css/style.scss */
 h2 {
+  display: block;
   color: black;
   font-family: "RobotoSlab-Regular";
   font-size: 24px; }
+
+/* line 35, ../../OpenServer/domains/terem.loc/css/style.scss */
+span.h2 {
+  display: block;
+  font-family: "RobotoSlab-Regular";
+  font-size: 24px;
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=style.css.map */
