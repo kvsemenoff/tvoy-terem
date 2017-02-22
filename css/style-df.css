@@ -1,2 +1,302 @@
-.clear{clear:both}.dfcontainer{max-width:1200px;width:100%;margin:0 auto;padding:0 10px}.dfcontainer .title-block,.dfcontainer .descr{padding-left:30px}.dfcontainer .descr{padding-bottom:22px;font-family:"RobotoSlab-Regular"}.descr{font-family:"RobotoSlab-Regular"}.df-newblock{text-align:center}.df-newbox{max-width:275px;width:100%;display:inline-block;text-align:left;padding:22px 22px 30px 22px;border:1px solid #ebf2f5;margin-bottom:20px}.dfnewimg{position:relative}.dfnewimg img{width:100%;height:auto;display:inline-block}.dfsquere{color:white;font-family:"RobotoSlab-Bold";font-size:16px;position:absolute;bottom:-25px;right:11px;display:inline-block;padding:9px 20px 20px 20px;background-image:url("../img/pricedf.png");background-position:center;background-repeat:no-repeat}.dfnewtxtbox{padding-top:30px;padding-left:6px}.df-proect{color:black;font-family:"RobotoSlab-Regular";font-size:18px;display:inline-block;margin-bottom:15px;border-bottom:1px dashed #abbac2;transition:0.3s}.df-proect:hover{border-bottom:1px dashed transparent;color:#621212}.dfprice{color:black;font-size:22px;font-family:"RobotoSlab-Bold";display:block;margin-bottom:12px}.dfprice span{font-family:"rouble" !important}.dfcharacteristicts span:first-child{font-family:"RobotoSlab-Light";font-size:12px;line-height:22px;color:#99a8b0;display:inline-block;min-width:115px}.dfcharacteristicts span:last-child{color:black;font-family:"RobotoSlab-Bold";display:inline-block;line-height:22px;font-size:12px}.dfbutton-1{margin-top:20px}.button_1:hover,.button_2:hover,.button_3:hover,.button_4:hover{transition:0.3s}.df-left,.df-right{width:40px;height:40px;border-radius:50%;border:1px solid #ebf2f5;background-image:url("../img/left.png");background-repeat:no-repeat;background-position:center;position:absolute;top:-105px;right:43px;transition:0.3s}.df-right{background-image:url("../img/right.png");right:0}.df-left:hover,.df-right:hover{border:1px solid #87b74a}.dfcenter{text-align:center;padding:0 20px}.dffilterbox{max-width:287px;width:100%;display:inline-block;margin-right:15px;margin-bottom:20px}.dfcap{font-size:13px;color:#909ba2;font-family:"RobotoSlab-Regular";display:block;margin-bottom:12px;text-align:center}.dfcap span{font-family:"rouble" !important}select:focus,select:active{outline:none}.az-select{position:relative;cursor:pointer;text-align:left;max-width:140px;width:100%;font-family:"RobotoSlab-Bold";display:inline-block;margin-bottom:10px}.az-select select{-webkit-appearance:none;-moz-appearance:none;padding:9px 0 9px 17px;max-width:140px;width:100%;background-color:#fff;border-radius:30px;border:1px solid #ebf2f5;box-shadow:inset 2.5px 4.3px 5px rgba(225,234,240,0.35)}.az-select select::-ms-expand{display:none}.az-select .az-options{display:none;top:calc(100% + 0px);left:-2px;width:calc(100% + 4px);position:absolute;background-color:#fff;border:1px solid #ebf2f5;border-radius:5px;z-index:7;color:rgba(20,20,20,0.7)}.az-select div[data-val]{padding-left:20px;line-height:35px;letter-spacing:0.02em;cursor:pointer}.az-select div[data-val]:hover{background-color:rgba(144,155,162,0.4)}.az-select:before{content:'';position:absolute;top:50%;transform:translate(0, -50%);right:12px;width:13px;height:8px;background-image:url("../img/menuarrow.png");background-repeat:no-repeat;background-position:center;z-index:1}.dfrightradius{margin-left:-5px}.dfrightradius select{border-radius:30px}.dffilterboxone{width:180px;max-width:100%;margin-right:21px}.dffilterboxone .az-select{max-width:180px}.dffilterboxone select{border-radius:30px;width:180px;max-width:100%}@media only screen and (min-width: 480px){.az-select{margin-bottom:0px}.az-select select{border-radius:30px 0 0 30px}.dfrightradius select{border-radius:0 30px 30px 0}.dffilterboxone{margin-right:21px}.dffilterboxone .az-select select{border-radius:30px;width:180px;max-width:100%}}@media only screen and (min-width: 992px){.dfcontainer{padding:0px}.dfcontainer .title-block,.dfcontainer .descr{padding-left:140px !important}.dfcontainer .title-block{padding-top:40px}.dfcontainer .descr{padding-bottom:62px}.df-newbox{margin-right:24px;margin-bottom:0}.df-newblock .df-newbox:last-child{margin-right:0}.dffilterbox{margin-bottom:0px}.az-select{margin-bottom:0px}.dfcap{margin-left:21px;text-align:left}}
+/* line 1, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.clear {
+  clear: both; }
+
+/*==============new===============*/
+/* line 7, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcontainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px; }
+  /* line 12, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcontainer .title-block, .dfcontainer .descr {
+    padding-left: 30px; }
+  /* line 15, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcontainer .descr {
+    padding-bottom: 22px;
+    font-family: "RobotoSlab-Regular"; }
+
+/* line 20, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.descr {
+  font-family: "RobotoSlab-Regular"; }
+
+/* line 23, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-newblock {
+  text-align: center; }
+
+/* line 27, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-newbox {
+  max-width: 275px;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 22px 22px 30px 22px;
+  border: 1px solid #ebf2f5;
+  margin-bottom: 20px; }
+
+/* line 38, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfnewimg {
+  position: relative; }
+  /* line 40, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfnewimg img {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+
+/* line 46, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfsquere {
+  color: white;
+  font-family: "RobotoSlab-Bold";
+  font-size: 16px;
+  position: absolute;
+  bottom: -25px;
+  right: 11px;
+  display: inline-block;
+  padding: 9px 20px 20px 20px;
+  background-image: url("../img/pricedf.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 59, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfnewtxtbox {
+  padding-top: 30px;
+  padding-left: 6px; }
+
+/* line 63, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-proect {
+  color: black;
+  font-family: "RobotoSlab-Regular";
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #abbac2;
+  transition: 0.3s; }
+
+/* line 72, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-proect:hover {
+  border-bottom: 1px dashed transparent;
+  color: #621212; }
+
+/* line 77, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfprice {
+  color: black;
+  font-size: 22px;
+  font-family: "RobotoSlab-Bold";
+  display: block;
+  margin-bottom: 12px; }
+  /* line 83, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfprice span {
+    font-family: "rouble" !important; }
+
+/* line 89, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcharacteristicts span:first-child {
+  font-family: "RobotoSlab-Light";
+  font-size: 12px;
+  line-height: 22px;
+  color: #99a8b0;
+  display: inline-block;
+  min-width: 115px; }
+
+/* line 97, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcharacteristicts span:last-child {
+  color: black;
+  font-family: "RobotoSlab-Bold";
+  display: inline-block;
+  line-height: 22px;
+  font-size: 12px; }
+
+/* line 105, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfbutton-1 {
+  margin-top: 20px; }
+
+/* line 108, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.button_1:hover, .button_2:hover, .button_3:hover, .button_4:hover {
+  transition: 0.3s; }
+
+/* line 112, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-left, .df-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ebf2f5;
+  background-image: url("../img/left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: -105px;
+  right: 43px;
+  transition: 0.3s; }
+
+/* line 125, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-right {
+  background-image: url("../img/right.png");
+  right: 0; }
+
+/* line 130, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-left:hover, .df-right:hover {
+  border: 1px solid #87b74a; }
+
+/*=====================filter ===============*/
+/* line 135, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcenter {
+  text-align: center;
+  padding: 0 20px; }
+
+/* line 139, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dffilterbox {
+  max-width: 287px;
+  width: 100%;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 20px; }
+
+/* line 146, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcap {
+  font-size: 13px;
+  color: #909ba2;
+  font-family: "RobotoSlab-Regular";
+  display: block;
+  margin-bottom: 12px;
+  text-align: center; }
+  /* line 153, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcap span {
+    font-family: "rouble" !important; }
+
+/* line 157, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+select:focus, select:active {
+  outline: none; }
+
+/* line 160, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.az-select {
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  max-width: 140px;
+  width: 100%;
+  font-family: "RobotoSlab-Bold";
+  display: inline-block;
+  margin-bottom: 10px; }
+  /* line 169, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 9px 0 9px 17px;
+    max-width: 140px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid #ebf2f5;
+    box-shadow: inset 2.5px 4.3px 5px rgba(225, 234, 240, 0.35); }
+  /* line 180, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select select::-ms-expand {
+    display: none; }
+  /* line 183, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select .az-options {
+    display: none;
+    top: calc(100% + 0px);
+    left: -2px;
+    width: calc(100% + 4px);
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ebf2f5;
+    border-radius: 5px;
+    z-index: 7;
+    color: rgba(20, 20, 20, 0.7); }
+  /* line 196, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select div[data-val] {
+    padding-left: 20px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    cursor: pointer; }
+  /* line 202, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select div[data-val]:hover {
+    background-color: rgba(144, 155, 162, 0.4); }
+
+/* line 206, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.az-select:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 12px;
+  width: 13px;
+  height: 8px;
+  background-image: url("../img/menuarrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1; }
+
+/* line 219, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfrightradius {
+  margin-left: -5px; }
+  /* line 221, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfrightradius select {
+    border-radius: 30px; }
+
+/* line 225, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dffilterboxone {
+  width: 180px;
+  max-width: 100%;
+  margin-right: 21px; }
+  /* line 229, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dffilterboxone .az-select {
+    max-width: 180px; }
+  /* line 232, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dffilterboxone select {
+    border-radius: 30px;
+    width: 180px;
+    max-width: 100%; }
+
+@media only screen and (min-width: 480px) {
+  /* line 242, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select {
+    margin-bottom: 0px; }
+    /* line 244, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    .az-select select {
+      border-radius: 30px 0 0 30px; }
+  /* line 249, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfrightradius select {
+    border-radius: 0 30px 30px 0; }
+  /* line 253, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dffilterboxone {
+    margin-right: 21px; }
+    /* line 256, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    .dffilterboxone .az-select select {
+      border-radius: 30px;
+      width: 180px;
+      max-width: 100%; } }
+
+@media only screen and (min-width: 992px) {
+  /* line 269, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcontainer {
+    padding: 0px; }
+    /* line 271, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    .dfcontainer .title-block, .dfcontainer .descr {
+      padding-left: 140px !important; }
+    /* line 274, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    .dfcontainer .title-block {
+      padding-top: 40px; }
+    /* line 277, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    .dfcontainer .descr {
+      padding-bottom: 62px; }
+  /* line 281, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .df-newbox {
+    margin-right: 24px;
+    margin-bottom: 0; }
+  /* line 285, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .df-newblock .df-newbox:last-child {
+    margin-right: 0; }
+  /*=============filter*/
+  /* line 291, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dffilterbox {
+    margin-bottom: 0px; }
+  /* line 294, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .az-select {
+    margin-bottom: 0px; }
+  /* line 297, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcap {
+    margin-left: 21px;
+    text-align: left; } }
+
 /*# sourceMappingURL=style-df.css.map */
