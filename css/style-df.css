@@ -105,7 +105,11 @@
 .dfbutton-1 {
   margin-top: 20px; }
 
-/* line 107, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 105, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.button_1:hover, .button_2:hover, .button_3:hover, .button_4:hover {
+  transition: 0.3s; }
+
+/* line 109, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .df-left, .df-right {
   width: 40px;
   height: 40px;
@@ -119,22 +123,22 @@
   right: 43px;
   transition: 0.3s; }
 
-/* line 120, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 122, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .df-right {
   background-image: url("../img/right.png");
   right: 0; }
 
-/* line 125, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 127, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .df-left:hover, .df-right:hover {
   border: 1px solid #87b74a; }
 
 /*=====================filter ===============*/
-/* line 130, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 132, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .dfcenter {
   text-align: center;
   padding: 0 20px; }
 
-/* line 134, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 136, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .dffilterbox {
   max-width: 287px;
   width: 100%;
@@ -142,7 +146,7 @@
   margin-right: 15px;
   margin-bottom: 20px; }
 
-/* line 141, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 143, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .dfcap {
   font-size: 13px;
   color: #909ba2;
@@ -150,15 +154,15 @@
   display: block;
   margin-bottom: 12px;
   text-align: center; }
-  /* line 148, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 150, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dfcap span {
     font-family: "rouble" !important; }
 
-/* line 152, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 154, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 select:focus, select:active {
   outline: none; }
 
-/* line 155, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 157, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .az-select {
   position: relative;
   cursor: pointer;
@@ -168,41 +172,43 @@ select:focus, select:active {
   font-family: "RobotoSlab-Bold";
   display: inline-block;
   margin-bottom: 10px; }
-  /* line 164, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 166, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select select {
     -webkit-appearance: none;
     -moz-appearance: none;
     padding: 9px 0 9px 17px;
     max-width: 140px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #fff;
     border-radius: 30px;
     border: 1px solid #ebf2f5;
     box-shadow: inset 2.5px 4.3px 5px rgba(225, 234, 240, 0.35); }
-  /* line 175, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 177, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select select::-ms-expand {
     display: none; }
-  /* line 178, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 180, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select .az-options {
     display: none;
-    top: calc(100% + 2px);
+    top: calc(100% + 0px);
     left: -2px;
     width: calc(100% + 4px);
     position: absolute;
-    background-color: #f2f6f8;
+    background-color: #fff;
+    border: 1px solid #ebf2f5;
+    border-radius: 5px;
     z-index: 7;
     color: rgba(20, 20, 20, 0.7); }
-  /* line 189, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 193, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select div[data-val] {
     padding-left: 20px;
     line-height: 35px;
     letter-spacing: 0.02em;
     cursor: pointer; }
-  /* line 195, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 199, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select div[data-val]:hover {
     background-color: rgba(144, 155, 162, 0.4); }
 
-/* line 199, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 203, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .az-select:before {
   content: '';
   position: absolute;
@@ -216,74 +222,74 @@ select:focus, select:active {
   background-position: center;
   z-index: 1; }
 
-/* line 212, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 216, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .dfrightradius {
   margin-left: -5px; }
-  /* line 214, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 218, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dfrightradius select {
     border-radius: 30px; }
 
-/* line 218, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+/* line 222, ../../OpenServer/domains/terem.loc/css/style-df.scss */
 .dffilterboxone {
   width: 180px;
   max-width: 100%;
   margin-right: 21px; }
-  /* line 222, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 226, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dffilterboxone .az-select {
     max-width: 180px; }
-  /* line 225, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 229, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dffilterboxone select {
     border-radius: 30px;
     width: 180px;
     max-width: 100%; }
 
 @media only screen and (min-width: 480px) {
-  /* line 235, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 239, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select {
     margin-bottom: 0px; }
-    /* line 237, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    /* line 241, ../../OpenServer/domains/terem.loc/css/style-df.scss */
     .az-select select {
       border-radius: 30px 0 0 30px; }
-  /* line 242, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 246, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dfrightradius select {
     border-radius: 0 30px 30px 0; }
-  /* line 246, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 250, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dffilterboxone {
     margin-right: 21px; }
-    /* line 249, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    /* line 253, ../../OpenServer/domains/terem.loc/css/style-df.scss */
     .dffilterboxone .az-select select {
       border-radius: 30px;
       width: 180px;
       max-width: 100%; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 262, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 266, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dfcontainer {
     padding: 0px; }
-    /* line 264, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    /* line 268, ../../OpenServer/domains/terem.loc/css/style-df.scss */
     .dfcontainer h1, .dfcontainer h2 {
       padding-left: 140px; }
-    /* line 267, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    /* line 271, ../../OpenServer/domains/terem.loc/css/style-df.scss */
     .dfcontainer h1 {
       padding-top: 40px; }
-    /* line 270, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+    /* line 274, ../../OpenServer/domains/terem.loc/css/style-df.scss */
     .dfcontainer h2 {
       padding-bottom: 62px; }
-  /* line 274, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 278, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .df-newbox {
     margin-right: 24px;
     margin-bottom: 0; }
-  /* line 278, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 282, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .df-newblock .df-newbox:last-child {
     margin-right: 0; }
   /*=============filter*/
-  /* line 284, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 288, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dffilterbox {
     margin-bottom: 0px; }
-  /* line 287, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 291, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .az-select {
     margin-bottom: 0px; }
-  /* line 290, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  /* line 294, ../../OpenServer/domains/terem.loc/css/style-df.scss */
   .dfcap {
     margin-left: 21px;
     text-align: left; } }

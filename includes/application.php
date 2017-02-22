@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-12">
 		<h2 class="application-title">Подать заявку <br><span class="application-title__span">на расчет дома</span></h2>
-		<a href="" class="apllication-btn button_3 button_2__mright">Оставить заявку</a>
+		<a href="#js-form3" name="modal" class="apllication-btn button_3 button_2__mright">Оставить заявку</a>
 		</div>
 	</div>
 	<div class="row">
