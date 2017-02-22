@@ -65,8 +65,8 @@ $(document).ready(function(){
 
 
 
-    var owl2 = $("#dd-owl");
-    owl2.owlCarousel({
+    var owl3 = $("#dd-owl");
+    owl3.owlCarousel({
         loop:true,
         nav:true, 
         autoplay:false,

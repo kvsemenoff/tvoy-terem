@@ -1,2 +1,132 @@
-.clear{clear:both}.dfcontainer{max-width:1200px;width:100%;margin:0 auto;padding:0 10px}.df-newblock{text-align:center}.df-newbox{max-width:275px;width:100%;display:inline-block;text-align:left;padding:22px 22px 30px 22px;border:1px solid #ebf2f5;margin-bottom:20px}.dfnewimg{position:relative}.dfnewimg img{width:100%;height:auto;display:inline-block}.dfsquere{color:white;font-family:"RobotoSlab-Bold";font-size:16px;position:absolute;bottom:-25px;right:11px;display:inline-block;padding:9px 20px 20px 20px;background-image:url("../img/pricedf.png");background-position:center;background-repeat:no-repeat}.dfnewtxtbox{padding-top:30px;padding-left:6px}.df-proect{color:black;font-family:"RobotoSlab-Regular";font-size:18px;display:inline-block;margin-bottom:15px;border-bottom:1px dashed #abbac2;transition:0.3s}.df-proect:hover{border-bottom:1px dashed transparent;color:#621212}.dfprice{color:black;font-size:22px;font-family:"RobotoSlab-Bold";display:block;margin-bottom:12px}.dfprice span{font-family:"rouble" !important}.dfcharacteristicts span:first-child{font-family:"RobotoSlab-Light";font-size:12px;line-height:22px;color:#99a8b0;display:inline-block;min-width:115px}.dfcharacteristicts span:last-child{color:black;font-family:"RobotoSlab-Bold";display:inline-block;line-height:22px;font-size:12px}.dfbutton-1{margin-top:20px}.df-left,.df-right{width:40px;height:40px;border-radius:50%;border:1px solid #ebf2f5;background-image:url("../img/left.png");background-repeat:no-repeat;background-position:center;position:absolute;top:-105px;right:43px}.df-right{background-image:url("../img/right.png");right:0}@media only screen and (min-width: 992px){.dfcontainer{padding:0px}.df-newbox{margin-right:24px;margin-bottom:0}.df-newblock .df-newbox:last-child{margin-right:0}}
+/* line 1, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.clear {
+  clear: both; }
+
+/*==============new===============*/
+/* line 7, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcontainer {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+/* line 14, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-newblock {
+  text-align: center; }
+
+/* line 18, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-newbox {
+  max-width: 275px;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  padding: 22px 22px 30px 22px;
+  border: 1px solid #ebf2f5;
+  margin-bottom: 20px; }
+
+/* line 28, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfnewimg {
+  position: relative; }
+  /* line 30, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfnewimg img {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+
+/* line 36, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfsquere {
+  color: white;
+  font-family: "RobotoSlab-Bold";
+  font-size: 16px;
+  position: absolute;
+  bottom: -25px;
+  right: 11px;
+  display: inline-block;
+  padding: 9px 20px 20px 20px;
+  background-image: url("../img/pricedf.png");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 49, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfnewtxtbox {
+  padding-top: 30px;
+  padding-left: 6px; }
+
+/* line 53, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-proect {
+  color: black;
+  font-family: "RobotoSlab-Regular";
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #abbac2;
+  transition: 0.3s; }
+
+/* line 62, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-proect:hover {
+  border-bottom: 1px dashed transparent;
+  color: #621212; }
+
+/* line 67, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfprice {
+  color: black;
+  font-size: 22px;
+  font-family: "RobotoSlab-Bold";
+  display: block;
+  margin-bottom: 12px; }
+  /* line 73, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfprice span {
+    font-family: "rouble" !important; }
+
+/* line 79, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcharacteristicts span:first-child {
+  font-family: "RobotoSlab-Light";
+  font-size: 12px;
+  line-height: 22px;
+  color: #99a8b0;
+  display: inline-block;
+  min-width: 115px; }
+
+/* line 87, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfcharacteristicts span:last-child {
+  color: black;
+  font-family: "RobotoSlab-Bold";
+  display: inline-block;
+  line-height: 22px;
+  font-size: 12px; }
+
+/* line 95, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.dfbutton-1 {
+  margin-top: 20px; }
+
+/* line 100, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-left, .df-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ebf2f5;
+  background-image: url("../img/left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: -105px;
+  right: 43px; }
+
+/* line 112, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+.df-right {
+  background-image: url("../img/right.png");
+  right: 0; }
+
+@media only screen and (min-width: 992px) {
+  /* line 126, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .dfcontainer {
+    padding: 0px; }
+  /* line 129, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .df-newbox {
+    margin-right: 24px;
+    margin-bottom: 0; }
+  /* line 133, ../../OpenServer/domains/terem.loc/css/style-df.scss */
+  .df-newblock .df-newbox:last-child {
+    margin-right: 0; } }
+
 /*# sourceMappingURL=style-df.css.map */

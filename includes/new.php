@@ -1,7 +1,7 @@
 <section class="section section_padding">
 	<div class="dfcontainer">
-		<h2>Новые проекты</h2>
-		<h4>домов из бруса</h4>
+		<h1>Новые проекты</h1>
+		<h2>домов из бруса</h2>
 		<div class="df-newblock">
 			<div id="df-owl">
 				<div class="item">

@@ -112,8 +112,10 @@
 .advantages{
 	font-family: "RobotoSlab-Regular";
 	font-size: 16px;
-	&>div{
+	&__item{
 		padding-bottom: 30px;
+		float: left;
+		width: 16.66%;
 	}
 }
 .advantages p{
@@ -132,6 +134,11 @@
 			float: none;
 			max-width: none;
 		}
+	}
+}
+@media only screen and (max-width : 1000px) {
+	.advantages__item{
+		width: 33.33%;
 	}
 }
 @media only screen and (max-width : 770px) {
@@ -164,12 +171,20 @@
 	.title-block{
 		font-size: 18px;
 	}
+	.advantages__item{
+		width: 50%;
+	}
 	.advantages p{
 		font-size: 16px;
 		padding-top: 5px;
 	}
 }
-
+@media only screen and (max-width : 400px) {
+.advantages__item{
+	width: 100%;
+	padding-left: 20px;
+}
+}
 
 @media only screen and (min-width : 320px) {
 }

@@ -190,6 +190,85 @@
 	background: #4A0203;
 }
 
+/* Видео нашей работы
+================================*/
+.dd-side-title{
+	span{
+		font-size: 19px;
+		font-family: "RobotoSlab-Bold";
+		
+	}
+	p{
+		font-size: 24px;
+		font-family: "RobotoSlab-Regular";
+		margin-bottom: 52px;
+	}
+}
+.dd-sl-r-title{
+	p{
+		font-size: 24px;
+		font-family: "RobotoSlab-Regular";
+	}
+}
+.dd-slide-box_right{
+	span{
+		display: inline-block;
+		color: black;
+		font-family: "RobotoSlab-Bold";
+		font-size: 19px;
+		
+	}
+}
+
+.dd-slide-but{
+	width: 136px;
+}
+.dd-inline{
+	display:inline-block;
+}
+.dd-slide-video-link{
+	padding-left: 36px;
+	span{
+		display: inline-block;
+		border-bottom:1px dashed #ABBAC2;
+	}
+}
+.dd-slide-but{
+	margin-left: 116px;
+}
+.dd-sl-r-title{
+	text-align:left;
+	padding-bottom: 66px;
+}
+.dd-text{
+	margin-bottom: 56px;	
+	span:first-child{
+		line-height: 22px;
+		color: black;
+		font-family: "RobotoSlab-Bold";
+		font-size: 16px;
+	}
+	.dd-date{
+		color: #979797;
+		font-family: "RobotoSlab-Regular";
+		font-size: 13px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+	p{
+		color: black;
+		font-family: "RobotoSlab-Regular";
+		font-size: 14px;
+		line-height: 22px;
+		padding-top: 25px;
+		a{
+			border-bottom:1px dashed #6E2626;
+			color:#6E2626;
+		}
+	}
+}
+
+
 @media only screen and (min-width : 320px) {
 }
 
