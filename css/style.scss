@@ -16,8 +16,21 @@
 .center{
 	text-align: center;
 }
+.section_padding{
+	padding:20px 0;
+}
 
-
+h1{	
+    color: black;
+    font-family: "RobotoSlab-Bold";
+    font-size: 29px;
+    font-weight: 700;
+}
+h2{	
+    color: black;
+    font-family: "RobotoSlab-Regular";
+    font-size: 24px;
+}
 
 @media only screen and (min-width : 320px) {
 }

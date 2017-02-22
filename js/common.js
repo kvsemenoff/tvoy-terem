@@ -34,6 +34,64 @@ $(document).ready(function(){
         $(this).toggleClass('az-select-focus');
     });
 
- });
+
+
+
+    var owl2 = $("#df-owl");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:25,
+        center:false,     //если нужны обрезаные края
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },
+          480:{
+              items:2  
+          },
+          990:{
+            items:3
+        },      
+
+        1248:{
+          items:4
+      }
+  }
+});
+
+
+
+    var owl2 = $("#dd-owl");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:25,
+        center:false,     //если нужны обрезаные края
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+            0:{
+              items:1
+          },
+          480:{
+              items:1  
+          },
+          990:{
+            items:1
+        },      
+
+        1248:{
+          items:1
+      }
+  }
+});
+
+
+});
 
 
