@@ -15,7 +15,7 @@
 							<div class="dfcharacteristicts"><span>Размеры дома:</span><span>8x8</span></div>
 							<div class="dfcharacteristicts"><span>Удобства в доме:</span><span>Есть</span></div>
 							<div class="dfcharacteristicts"><span>Особенности:</span><span>Терраса, Балкон</span></div>
-							<a href="#" name="modal" class="button-1 dfbutton-1">Подробнее</a>
+							<a href="#" name="modal" class="button_2 dfbutton-1">Подробнее</a>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 							<div class="dfcharacteristicts"><span>Размеры дома:</span><span>12x8</span></div>
 							<div class="dfcharacteristicts"><span>Удобства в доме:</span><span>Есть</span></div>
 							<div class="dfcharacteristicts"><span>Особенности:</span><span>Котельная</span></div>
-							<a href="#" name="modal" class="button-1 dfbutton-1">Подробнее</a>
+							<a href="#" name="modal" class="button_2 dfbutton-1">Подробнее</a>
 						</div>
 					</div>
 				</div>	
@@ -45,7 +45,7 @@
 							<div class="dfcharacteristicts"><span>Размеры дома:</span><span>10x10</span></div>
 							<div class="dfcharacteristicts"><span>Удобства в доме:</span><span>Есть</span></div>
 							<div class="dfcharacteristicts"><span>Особенности:</span><span>Терраса, Балкон</span></div>
-							<a href="#" name="modal" class="button-1 dfbutton-1">Подробнее</a>
+							<a href="#" name="modal" class="button_2 dfbutton-1">Подробнее</a>
 						</div>
 					</div>
 				</div>	
@@ -60,7 +60,7 @@
 							<div class="dfcharacteristicts"><span>Размеры дома:</span><span>12x8</span></div>
 							<div class="dfcharacteristicts"><span>Удобства в доме:</span><span>Есть</span></div>
 							<div class="dfcharacteristicts"><span>Особенности:</span><span>Терраса, Балкон</span></div>
-							<a href="#" name="modal" class="button-1 dfbutton-1">Подробнее</a>
+							<a href="#" name="modal" class="button_2 dfbutton-1">Подробнее</a>
 						</div>
 					</div>
 				</div>	
