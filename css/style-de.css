@@ -63,7 +63,9 @@ section { font-family: "RobotoSlab-Regular"; }
   .title-block { padding: 0 0 8px; }
   .galery .img-wrap { width: 33.33%; }
   .mini-blocks::before { display: none; }
-  .mini-block { width: 50%; height: 150px; } }
+  .mini-block { width: 50%; height: 150px; }
+  .mini-block:nth-child(3) { border-left: none; }
+  .mini-block:nth-child(2) { border-right: none; } }
 @media only screen and (max-width: 550px) { .about__wrap { padding: 20px 0; }
   .about__text { padding: 0; }
   .descr { font-size: 16px; padding: 0 100px 25px 0; }
