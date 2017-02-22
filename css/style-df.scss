@@ -8,6 +8,7 @@
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	padding:0 10px;
 }
 
 .df-newblock{
@@ -19,9 +20,11 @@
 	width: 100%;
 	display: inline-block;
 	text-align: left;
-	padding: 22px 14px 30px 14px;
+	padding: 22px 22px 30px 22px;
 	border: 1px solid #ebf2f5;
+	margin-bottom: 20px;
 }
+
 .dfnewimg{
 	position: relative;
 	img{
@@ -36,7 +39,7 @@
 	font-size: 16px;
 	position: absolute;
 	bottom: -25px;
-	right: 20px;
+	right: 11px;
 	display: inline-block;
 	padding: 9px 20px 20px 20px;
 	background-image: url("../img/pricedf.png");
@@ -44,14 +47,15 @@
 	background-repeat: no-repeat;
 }
 .dfnewtxtbox{
-	padding-top: 40px;
+	padding-top: 30px;
+	padding-left: 6px;
 }
 .df-proect{
 	color: black;
 	font-family: "RobotoSlab-Regular";
 	font-size: 18px;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	border-bottom: 1px dashed #abbac2;
 	transition:0.3s;
 }
@@ -59,12 +63,13 @@
 	border-bottom: 1px dashed transparent;
 	color: #621212;
 }
+
 .dfprice{
 	color: black;
 	font-size: 22px;
 	font-family: "RobotoSlab-Bold";
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 	span{
 		font-family: "rouble" !important;
 	}
@@ -88,7 +93,25 @@
 	}
 }
 .dfbutton-1{
+	margin-top: 20px;
+}
 
+//items left & right
+.df-left, .df-right{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #ebf2f5;
+	background-image: url("../img/left.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top:-105px;
+	right: 43px;
+}
+.df-right{
+	background-image: url("../img/right.png");
+	right: 0;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -100,6 +123,16 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dfcontainer{
+		padding:0px;
+	}
+	.df-newbox{		
+		margin-right: 24px;
+		margin-bottom: 0;
+	}
+	.df-newblock .df-newbox:last-child{
+		margin-right: 0;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

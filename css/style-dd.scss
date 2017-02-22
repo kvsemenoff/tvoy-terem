@@ -7,7 +7,7 @@
 .dd-title{
 	text-align:center;
 	color: black;
-	font-family: "OpenSans-Bold";
+	font-family: "RobotoSlab-Bold";
 	font-size: 29px;
 	font-weight: 700;
 	padding: 57px 0px;
@@ -86,10 +86,109 @@
 	border: 1px solid black;
 	color:black;
 }
+.button_2:active:after{
+	background: url(../img/bstr.jpg) no-repeat center;
+}
+.active_buttons_2{
+	border: 1px solid #84b546;
+	color:black;
+}
+.active_buttons_3{
+	border: 1px solid black;
+	color:black;
+}
+.active_buttons_3:after{
+	background: url(../img/bstr.jpg) no-repeat center;
+}
 
+// button_3
+.dd-button_3__wrap{
+	text-align:center;
+}
+.button_3{
+	text-align:center;
+	display:inline-block;
+	font-family: "RobotoSlab-Regular";
+	font-size:17px;
+	color:#fff;
+	padding: 16px 64px;
+	box-shadow: 0 5px 13px rgba(86, 0, 1, 0.3);
+	border-radius:30px;
+	background: url(../img/b1.png) no-repeat center;
+	background-size:cover;
+}
+.button_3:hover{
+	background: url(../img/b2.jpg) no-repeat center;
+	background-size:cover;
+}
+.button_3:active{
+	color:#D0A6A6;
+	background: url(../img/b1.png) no-repeat center;
+	background-size:cover;
+}
+.button_3_active{
+	background: url(../img/b2.jpg) no-repeat center;
+	background-size:cover;
+}
+.button_3_color{
+	color:#D0A6A6;
+}
 
-
-
+//Button_3
+.dd-button_4__wrap{
+	background: #570203;
+	width: 100%;
+	padding: 14px 0px;
+	text-align:center;
+	margin: 50px 0px;
+}
+.button_4{
+	display:inline-block;
+	color:#fff;
+	font-family: "RobotoSlab-Regular";
+	font-size:12px;
+	border: 1px solid #8E6063;
+	width: 161px;
+	height: 32px;
+	border-radius:18px;
+	line-height:25px;
+	padding-left: 11px;
+	position:relative;
+}
+.button_4:after{
+	content:"";
+	position:absolute;
+	background: url(../img/t.png) no-repeat center;
+	width: 13px;
+	height: 14px;
+	left:11px;
+	top:7px;
+}
+.button_4:hover{
+	border:1px solid #FAA55D;
+	color:#FAA55D;
+}
+.button_4:hover:after{
+	background: url(../img/t2.png) no-repeat center;
+}
+.button_4:active{
+	background: #4A0203;
+	border: 1px solid #8E6063;
+	color:#fff;
+}
+.button_4:active:after{
+	background: url(../img/t.png) no-repeat center;
+}
+.button_4_active{
+	border:1px solid #FAA55D;
+	color:#FAA55D;
+}
+.button_4_active:after{
+	background: url(../img/t2.png) no-repeat center;
+}
+.button_4_color{
+	background: #4A0203;
+}
 
 @media only screen and (min-width : 320px) {
 }
