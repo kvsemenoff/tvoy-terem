@@ -266,8 +266,11 @@ section.header-top {
   font-weight: 400;
   padding-bottom: 1px;
   border-bottom: 1px dashed #cebcbc; }
+  /* line 240, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-topemail__link:hover {
+    border-bottom: 0; }
 
-/* line 241, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+/* line 244, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .header-top-btn {
   margin-right: 0;
   line-height: 28px;
@@ -275,70 +278,70 @@ section.header-top {
   margin-left: 30px;
   margin-top: 20px; }
 
-/* line 248, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+/* line 251, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .header-logo-wrap {
   width: 100px;
   height: 82px; }
-  /* line 251, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 254, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-logo-wrap img {
     max-width: 100%;
     max-height: 100%;
     display: inline-block;
     margin-left: -50px; }
 
-/* line 258, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+/* line 261, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
 .header-top__center {
   text-align: center; }
 
 @media only screen and (min-width: 992px) {
-  /* line 271, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 274, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   section.contact {
     padding-top: 70px; }
-  /* line 275, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 278, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   section.application {
     padding-top: 80px;
     padding-bottom: 80px; }
-  /* line 279, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 282, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block {
     margin-bottom: 0px; }
-  /* line 282, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 285, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-block {
     height: 282px; }
-  /* line 285, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 288, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-top__left {
     width: 44%;
     padding-top: 5px; }
-  /* line 289, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 292, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-logo-wrap {
     width: 0;
     height: 0; }
-    /* line 292, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+    /* line 295, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
     .header-logo-wrap img {
       margin-left: -83px; }
-  /* line 298, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 301, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-logo-wrap img {
     max-width: unset;
     max-height: unset; } }
 
 @media only screen and (min-width: 1200px) {
-  /* line 306, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 309, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-top-btn {
     margin-top: 0; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 312, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 315, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block1 {
     width: 26%; }
-  /* line 315, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 318, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block3 {
     width: 49%; }
-  /* line 318, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 321, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-block {
     max-height: 190px; }
-  /* line 321, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 324, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-top__left {
     width: 44%; }
-  /* line 324, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 327, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .header-topemail__btn {
     margin-top: 0; } }
 
