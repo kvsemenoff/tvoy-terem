@@ -40,6 +40,17 @@
 		</form>
 	</div>
 </div>
+<div class="js-window" id="js-form3">
+	<div class="db-popap">
+		<h1 class="dd-title">Оставить заявку</h1>
+		<img src="img/crest.png" alt="img" class="db-close">
+		<form action="#" method="post" class="js-submit">
+			<input type="text" placeholder="Ваше имя" name="uname" ><br>
+			<input type="text" placeholder="Ваш телефон" name="phone" class="js-mask"><br>
+			<input type="submit" name="submit" value="Отправить запрос" class="button_3 db-button_3 js-submit">
+		</form>
+	</div>
+</div>
 <div class="js-window" id="js-form2">
 	<div class="db-popap">
 		<img src="img/crest.png" alt="img" class="db-close">
