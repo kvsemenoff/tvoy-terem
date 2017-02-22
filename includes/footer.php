@@ -29,10 +29,10 @@
 </section>
 <div class="mask" id="js-mask"></div>
 <div class="js-window" id="js-form1">
-<div class="db-popap">
-<h1 class="dd-title">Перезвоните</h1>
-<p>мне</p>
-<img src="img/crest.png" alt="img" class="db-close">
+	<div class="db-popap">
+		<h1 class="dd-title">Перезвоните</h1>
+		<p>мне</p>
+		<img src="img/crest.png" alt="img" class="db-close">
 		<form action="#" method="post" class="js-submit">
 			<input type="text" placeholder="Ваше имя" name="uname" ><br>
 			<input type="text" placeholder="Ваш телефон" name="phone" class="js-mask"><br>
@@ -40,4 +40,11 @@
 		</form>
 	</div>
 </div>
-<a href="#js-form1" name="js-modal">POPAP</a>
+<div class="js-window" id="js-form2">
+	<div class="db-popap">
+		<img src="img/crest.png" alt="img" class="db-close">
+		<h1 class="dd-title">Ваша заявка успешно отправлена</h1>
+		<p>наш представитель свяжется с вами в<br> ближайшее время</p>
+	</div>
+</div>
+<a href="#js-form2" name="js-modal"></a>

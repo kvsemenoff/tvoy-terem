@@ -39,6 +39,22 @@
 	}
 	display: none;
 }
+#js-form2{
+	z-index: 1000;
+	position: fixed;
+	top:15%;
+	left:0;
+	background: #fff;
+	padding: 47px;
+	text-align: center;
+	font-family: "RobotoSlab-Regular";
+	display: none;
+	p{
+		font-size: 24px;
+		color:black;
+		margin-top: 20px;
+	}
+}
 .db-close{
 	position: absolute;
 	top:-35px;
