@@ -112,6 +112,11 @@ section{
 		}
 	}
 }
+.our{
+	padding: 135px 0 50px;
+	background: #f8fafb;
+	margin-top: -110px;
+}
 .advantages{
 	font-family: "RobotoSlab-Regular";
 	font-size: 16px;
@@ -188,21 +193,31 @@ section{
 		display: block;
 		font-style: normal;
 		position: absolute;
-		top: 75px;
+		top: 50px;
 		left: 40px;
 	}
 	span{
 		font-family: "RobotoSlab-Bold";
-		font-size: 26px;
+		font-size: 40px;
 		display: block;
-		padding-bottom: 5px;
 		color: #fff;
+		line-height: 1;
+		padding-bottom: 7px;
+	}
+	.back{
+		top: 70px;
+		span{
+			font-size: 26px;
+			color: rgba(255,255,255,0.6);
+			padding-bottom: 0;
+			letter-spacing: 0.5px;
+		}
 	}
 	b{
 		font-weight: 400;
 		display: block;
 		font-size: 14px;
-		color: #fff;
+		color: rgba(255,255,255,0.6);
 	}
 }
 @media only screen and (max-width : 1200px) {
@@ -220,8 +235,17 @@ section{
 	.mini-block{
 		height: 140px;
 		i{
-			top: 55px;
+			top: 35px;
 			left: 30px;
+			span{
+				font-size: 26px;
+			}
+		}
+		.back{
+			top: 55px;
+			span{
+				font-size: 22px;
+			}
 		}
 	}
 }
@@ -234,9 +258,15 @@ section{
 		i{
 			top: 30px;
 			left: 20px;
+			span{
+				font-size: 18px;
+			}
 		}
-		span{
-			font-size: 18px;
+		.back{
+			top: 38px;
+			span{
+				font-size: 16px;
+			}
 		}
 	}
 }
@@ -267,6 +297,19 @@ section{
 		&:nth-child(2){
 			border-right: none;
 		}
+		i{
+			top: 40px;
+			left: 30px;
+			span{
+				font-size: 22px;
+			}
+		}
+		.back{
+			top: 48px;
+			span{
+				font-size: 18px;
+			}
+		}
 	}
 }
 @media only screen and (max-width : 550px) {
@@ -295,9 +338,28 @@ section{
 	}
 }
 @media only screen and (max-width : 400px) {
+	.our{
+		margin-top: 0;
+		padding-top: 40px;
+	}
 	.advantages__item{
 		width: 100%;
 		text-align: center;
+	}
+	.mini-block{
+		i{
+			top: 30px;
+			left: 20px;
+			span{
+				font-size: 18px;
+			}
+		}
+		.back{
+			top: 38px;
+			span{
+				font-size: 16px;
+			}
+		}
 	}
 }
 

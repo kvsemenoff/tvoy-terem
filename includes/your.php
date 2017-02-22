@@ -6,7 +6,7 @@
 	<div class="mini-blocks clearfix">
 		<a href="#" class="mini-block">
 			<img src="img/fon2.jpg" alt="">
-			<i><span>Деревянные бани</span><b>75 проектов</b></i>
+			<i class="back"><span>Деревянные бани</span><b>75 проектов</b></i>
 		</a>
 		<a href="#" class="mini-block">
 			<img src="img/fon3.jpg" alt="">
@@ -18,7 +18,7 @@
 		</a>
 		<a href="#" class="mini-block">
 			<img src="img/fon5.jpg" alt="">
-			<i><span>Срубы</span><b>53 проектов</b></i>
+			<i class="back"><span>Срубы</span><b>53 проектов</b></i>
 		</a>
 	</div>
 </section>

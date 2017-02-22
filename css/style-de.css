@@ -27,6 +27,8 @@ section { font-family: "RobotoSlab-Regular"; }
 .galery .img-wrap:hover img { transform: scale(1.1); }
 .galery .img-wrap img { width: 100%; height: auto; display: block; min-height: 100%; transition: 0.8s all ease; }
 
+.our { padding: 135px 0 50px; background: #f8fafb; margin-top: -110px; }
+
 .advantages { font-family: "RobotoSlab-Regular"; font-size: 16px; }
 .advantages__item { padding-bottom: 30px; float: left; width: 16.66%; }
 
@@ -46,18 +48,25 @@ section { font-family: "RobotoSlab-Regular"; }
 .mini-block:last-child { border-right: none; }
 .mini-block:hover img { transform: scale(1.2); }
 .mini-block img { transition: 0.8s all ease; width: 100%; display: block; height: auto; min-height: 100%; }
-.mini-block i { display: block; font-style: normal; position: absolute; top: 75px; left: 40px; }
-.mini-block span { font-family: "RobotoSlab-Bold"; font-size: 26px; display: block; padding-bottom: 5px; color: #fff; }
-.mini-block b { font-weight: 400; display: block; font-size: 14px; color: #fff; }
+.mini-block i { display: block; font-style: normal; position: absolute; top: 50px; left: 40px; }
+.mini-block span { font-family: "RobotoSlab-Bold"; font-size: 40px; display: block; color: #fff; line-height: 1; padding-bottom: 7px; }
+.mini-block .back { top: 70px; }
+.mini-block .back span { font-size: 26px; color: rgba(255, 255, 255, 0.6); padding-bottom: 0; letter-spacing: 0.5px; }
+.mini-block b { font-weight: 400; display: block; font-size: 14px; color: rgba(255, 255, 255, 0.6); }
 
 @media only screen and (max-width: 1200px) { .paper__img { margin: 0 auto; float: none; }
   .paper__text { padding: 10px 0; float: none; max-width: none; }
   .mini-block { height: 140px; }
-  .mini-block i { top: 55px; left: 30px; } }
+  .mini-block i { top: 35px; left: 30px; }
+  .mini-block i span { font-size: 26px; }
+  .mini-block .back { top: 55px; }
+  .mini-block .back span { font-size: 22px; } }
 @media only screen and (max-width: 1000px) { .advantages__item { width: 33.33%; }
   .mini-block { height: 120px; }
   .mini-block i { top: 30px; left: 20px; }
-  .mini-block span { font-size: 18px; } }
+  .mini-block i span { font-size: 18px; }
+  .mini-block .back { top: 38px; }
+  .mini-block .back span { font-size: 16px; } }
 @media only screen and (max-width: 770px) { .paper__wrap { margin: 0; }
   .descr { padding: 0 100px 75px 0; }
   .title-block { padding: 0 0 8px; }
@@ -65,7 +74,11 @@ section { font-family: "RobotoSlab-Regular"; }
   .mini-blocks::before { display: none; }
   .mini-block { width: 50%; height: 150px; }
   .mini-block:nth-child(3) { border-left: none; }
-  .mini-block:nth-child(2) { border-right: none; } }
+  .mini-block:nth-child(2) { border-right: none; }
+  .mini-block i { top: 40px; left: 30px; }
+  .mini-block i span { font-size: 22px; }
+  .mini-block .back { top: 48px; }
+  .mini-block .back span { font-size: 18px; } }
 @media only screen and (max-width: 550px) { .about__wrap { padding: 20px 0; }
   .about__text { padding: 0; }
   .descr { font-size: 16px; padding: 0 100px 25px 0; }
@@ -73,4 +86,9 @@ section { font-family: "RobotoSlab-Regular"; }
   .advantages__item { width: 50%; }
   .advantages p { font-size: 16px; padding-top: 5px; }
   .mini-block { height: 120px; } }
-@media only screen and (max-width: 400px) { .advantages__item { width: 100%; text-align: center; } }
+@media only screen and (max-width: 400px) { .our { margin-top: 0; padding-top: 40px; }
+  .advantages__item { width: 100%; text-align: center; }
+  .mini-block i { top: 30px; left: 20px; }
+  .mini-block i span { font-size: 18px; }
+  .mini-block .back { top: 38px; }
+  .mini-block .back span { font-size: 16px; } }
