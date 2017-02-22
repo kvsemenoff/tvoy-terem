@@ -65,8 +65,8 @@ $(document).ready(function(){
 
 
 
-    var owl2 = $("#dd-owl");
-    owl2.owlCarousel({
+    var owl3 = $("#dd-owl");
+    owl3.owlCarousel({
         loop:true,
         nav:true, 
         autoplay:false,
@@ -91,6 +91,16 @@ $(document).ready(function(){
   }
 });
 
+  $("#owl-paper").owlCarousel({
+    loop:true,
+    nav:true, 
+    items:1,
+    responsive:{
+      770:{
+         items:2
+      }
+    }
+  });
 
 });
 

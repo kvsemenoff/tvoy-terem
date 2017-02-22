@@ -7,15 +7,41 @@
 		}
 	}
 }
+.title-block{
+	font-family: "RobotoSlab-Bold";
+	font-size: 36px;
+	padding: 0 15px 0 100px;
+	font-weight: 400;
+}
 .descr{
 	font-size: 24px;
 	display: block;
+	padding: 0 100px 75px;
 	padding-bottom: 75px;
+	padding-right: 100px;
+	padding-left: 100px;
 }
 .paper{
 	font-family: "RobotoSlab-Regular";
 	&__wrap{
 		margin: 0 -15px;
+		.owl-prev, .owl-next{
+			color: transparent;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			border: 1px solid #ebf2f5;
+			background-image: url("../img/left.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			position: absolute;
+			top:-105px;
+			right: 43px;
+		}
+		.owl-next{
+			background-image: url("../img/right.png");
+			right: 0;
+		}
 	}
 	&__inner{
 		padding: 0 15px 70px 15px;
@@ -65,19 +91,38 @@
 	}
 }
 .galery{
+	overflow: hidden;
 	.img-wrap{
 		display: block;
 		float: left;
 		width: 16.66%;
+		overflow: hidden;
+		&:hover img{
+			transform: scale(1.1);
+		}
 		img{
 			width: 100%;
 			height: auto;
 			display: block;
 			min-height: 100%;
+			transition: 0.8s all ease;
 		}
 	}
 }
-
+.advantages{
+	font-family: "RobotoSlab-Regular";
+	font-size: 16px;
+	&__item{
+		padding-bottom: 30px;
+		float: left;
+		width: 16.66%;
+	}
+}
+.advantages p{
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: "RobotoSlab-Bold";
+}
 @media only screen and (max-width : 1200px) {
 	.paper{
 		&__img{
@@ -91,8 +136,55 @@
 		}
 	}
 }
-
-
+@media only screen and (max-width : 1000px) {
+	.advantages__item{
+		width: 33.33%;
+	}
+}
+@media only screen and (max-width : 770px) {
+	.paper__wrap{
+		margin: 0;
+	}
+	.descr{
+		padding: 0 100px 75px 0;
+	}
+	.title-block{
+		padding: 0 0 8px;
+	}
+	.galery{
+		.img-wrap{
+			width: 33.33%;
+		}
+	}
+}
+@media only screen and (max-width : 550px) {
+	.about__wrap{
+		padding: 20px 0;
+	}
+	.about__text{
+		padding: 0;
+	}
+	.descr{
+		font-size: 16px;
+		padding: 0 100px 25px 0;
+	}
+	.title-block{
+		font-size: 18px;
+	}
+	.advantages__item{
+		width: 50%;
+	}
+	.advantages p{
+		font-size: 16px;
+		padding-top: 5px;
+	}
+}
+@media only screen and (max-width : 400px) {
+.advantages__item{
+	width: 100%;
+	padding-left: 20px;
+}
+}
 
 @media only screen and (min-width : 320px) {
 }

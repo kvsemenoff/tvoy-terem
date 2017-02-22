@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Статьи</h2>
+				<h2 class="title-block">Статьи</h2>
 				<span class="descr">про строительство деревянных бань и домов</span>
-				<div class="paper__wrap paper__slader clearfix">
-					<div class="paper__inner col-md-6">
+				<div class="paper__wrap clearfix" id="owl-paper">
+					<div class="paper__inner">
 						<div class="paper__content">
 							<div class="paper__block clearfix">
 								<div class="paper__img">
@@ -21,7 +21,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="paper__inner col-md-6">
+					<div class="paper__inner">
 						<div class="paper__content">
 							<div class="paper__block clearfix">
 								<div class="paper__img">

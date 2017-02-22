@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>О компании</h2>
+				<h2 class="title-block">О компании</h2>
 				<div class="about__wrap clearfix">
 					<div class="about__text col-md-6">
 						<p>Главным направлением деятельности нашей компании является строительство деревянных домов. Мы также строим каркасные дома и бани из бруса.</p>
