@@ -172,30 +172,174 @@ a.apllication-btn {
   font-size: 14px;
   line-height: 20px; }
 
+/* line 156, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+section.header-top {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-height: 50px;
+  background: #560001; }
+
+/* line 162, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.headertop-spb__phone {
+  color: #cebcbc;
+  font-family: "RobotoSlab-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: -5px;
+  margin-right: 5px; }
+
+/* line 172, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.last-phone {
+  margin-right: 0; }
+
+/* line 175, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.headertop-spb__phonespan {
+  color: white;
+  font-family: "RobotoSlab-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 184, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.headertop-spb {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; }
+  /* line 188, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .headertop-spb:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 38px;
+    height: 20px;
+    background: url(/img/spb.png) 0 0 no-repeat; }
+
+/* line 197, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.headertop-mobile {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -4px; }
+  /* line 201, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .headertop-mobile:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 38px;
+    height: 20px;
+    background: url(/img/mob.png) 0 0 no-repeat; }
+
+/* line 210, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-topemail {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px; }
+  /* line 214, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-topemail:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 48px;
+    height: 20px;
+    background: url(/img/email.png) 0 0 no-repeat;
+    margin-right: 5px; }
+
+/* line 224, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-top__logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -83px;
+  top: -13px; }
+
+/* line 230, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-top__left {
+  width: 100%; }
+
+/* line 233, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-topemail__link {
+  color: #cebcbc;
+  font-family: "RobotoSlab-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 1px;
+  border-bottom: 1px dashed #cebcbc; }
+
+/* line 241, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-top-btn {
+  margin-right: 0;
+  line-height: 28px;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-top: 20px; }
+
+/* line 248, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-logo-wrap {
+  width: 100px;
+  height: 82px; }
+  /* line 251, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-logo-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin-left: -50px; }
+
+/* line 258, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+.header-top__center {
+  text-align: center; }
+
 @media only screen and (min-width: 992px) {
-  /* line 165, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 271, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   section.contact {
     padding-top: 70px; }
-  /* line 169, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 275, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   section.application {
     padding-top: 80px;
     padding-bottom: 80px; }
-  /* line 173, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 279, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block {
     margin-bottom: 0px; }
-  /* line 176, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 282, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-block {
-    height: 282px; } }
+    height: 282px; }
+  /* line 285, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-top__left {
+    width: 44%;
+    padding-top: 5px; }
+  /* line 289, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-logo-wrap {
+    width: 0;
+    height: 0; }
+    /* line 292, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+    .header-logo-wrap img {
+      margin-left: -83px; }
+  /* line 298, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-logo-wrap img {
+    max-width: unset;
+    max-height: unset; } }
+
+@media only screen and (min-width: 1200px) {
+  /* line 306, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-top-btn {
+    margin-top: 0; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 182, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 312, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block1 {
     width: 26%; }
-  /* line 185, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 315, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-item__block3 {
     width: 49%; }
-  /* line 188, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  /* line 318, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
   .contact-block {
-    max-height: 190px; } }
+    max-height: 190px; }
+  /* line 321, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-top__left {
+    width: 44%; }
+  /* line 324, ../../OpenServer/domains/terem.loc/css/style-dg.scss */
+  .header-topemail__btn {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=style-dg.css.map */
