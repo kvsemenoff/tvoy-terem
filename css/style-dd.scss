@@ -320,7 +320,6 @@
 	left:0;
 	position:absolute;
 	z-index:999;
-	outline:2px solid blue;
 	li{
 		margin-right: 0;
 		display: block;
@@ -361,16 +360,25 @@
 	top:-34px;
 	left:60px;
 }
-.dd-sub-menu-2{
+.dd-sub-menu-2, .dd-sub-menu-3{
 	position:absolute;
 	padding-top: 25px;
 	padding-bottom: 21px;
 	width: 171px;
+	top:0;
 	right:-173px;
 	background: #fff;
 	z-index:999;
-	outline:1px solid red;
+	// transform: scaleX(0);
+	// transform-origin:0 0;
+	// transition:0.5s;
 }
+.dd-relative{
+	position:relative;
+}
+// .dd-sub2-hover, .dd-sub2-hover2{
+// 	position:relative;
+// }
 
 
 @media only screen and (min-width : 320px) {

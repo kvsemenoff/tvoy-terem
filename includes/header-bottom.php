@@ -9,19 +9,19 @@
 							<ul class="dd-sub-menu">
 								<div class="dd-li-wrap">
 									<li><a href="#">Проекты домов</a></li>
-									<li>
+									<li class="dd-relative">
 										<a class="dd-sum_item" href="#">Фото проектов</a>
-										<ul class="dd-sub-menu-2">
-											<li><a href="#">Информация для покупателя</a></li>
-											<li><a href="#">Форма заказа</a></li>
-										</ul>
-									</li>
-									<li>
-										<a class="dd-sum_item" href="#">Как заказать</a>
 										<!-- <ul class="dd-sub-menu-2">
 											<li><a href="#">Информация для покупателя</a></li>
 											<li><a href="#">Форма заказа</a></li>
 										</ul> -->
+									</li>
+									<li class="dd-relative">
+										<a class="dd-sum_item" href="#">Как заказать</a>
+										<ul class="dd-sub-menu-3">
+											<li><a href="#">Информация для покупателя</a></li>
+											<li><a href="#">Форма заказа</a></li>
+										</ul>
 									</li>
 									<li><a href="#">Отзывы</a></li>
 								</div>
