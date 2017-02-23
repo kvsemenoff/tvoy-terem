@@ -1,3 +1,6 @@
+section{
+	font-family: "RobotoSlab-Regular";
+}
 .about{
 	font-family: "RobotoSlab-Regular";
 	&__wrap{
@@ -109,6 +112,11 @@
 		}
 	}
 }
+.our{
+	padding: 135px 0 50px;
+	background: #f8fafb;
+	margin-top: -110px;
+}
 .advantages{
 	font-family: "RobotoSlab-Regular";
 	font-size: 16px;
@@ -123,6 +131,95 @@
 	font-size: 20px;
 	font-family: "RobotoSlab-Bold";
 }
+.title{
+	font-family: "RobotoSlab-Bold";
+	font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+}
+.title__descr{
+	display: block;
+	font-size: 28px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 485px;
+}
+.main-block{
+	height: 515px;
+	padding-top: 120px;
+	background: url(../img/fon1.jpg) center top no-repeat;
+}
+.mini-blocks{
+	margin-bottom: 30px;
+	position: relative;
+	&::before{
+		content: "";
+		width: 57px;
+		height: 63px;
+		position: absolute;
+		bottom: -35px;
+		left: 50%;
+		margin-left: -28px;
+		z-index: 1000;
+		background: url(../img/search.png);
+	}
+}
+.mini-block{
+	float: left;
+	width: 25%;
+	display: block;
+	border: 1px solid rgba(255,255,255,0.4);
+	border-bottom: none;
+	position: relative;
+	overflow: hidden;
+	height: 180px;
+	&:first-child{
+		border-left: none;
+	}
+	&:last-child{
+		border-right: none;
+	}
+	&:hover img{
+		transform: scale(1.2);
+	}
+	img{
+		transition: 0.8s all ease;
+		width: 100%;
+		display: block;
+		height: auto;
+		min-height: 100%;
+	}
+	i{
+		display: block;
+		font-style: normal;
+		position: absolute;
+		top: 50px;
+		left: 40px;
+	}
+	span{
+		font-family: "RobotoSlab-Bold";
+		font-size: 40px;
+		display: block;
+		color: #fff;
+		line-height: 1;
+		padding-bottom: 7px;
+	}
+	.back{
+		top: 70px;
+		span{
+			font-size: 26px;
+			color: rgba(255,255,255,0.6);
+			padding-bottom: 0;
+			letter-spacing: 0.5px;
+		}
+	}
+	b{
+		font-weight: 400;
+		display: block;
+		font-size: 14px;
+		color: rgba(255,255,255,0.6);
+	}
+}
 @media only screen and (max-width : 1200px) {
 	.paper{
 		&__img{
@@ -135,10 +232,42 @@
 			max-width: none;
 		}
 	}
+	.mini-block{
+		height: 140px;
+		i{
+			top: 35px;
+			left: 30px;
+			span{
+				font-size: 26px;
+			}
+		}
+		.back{
+			top: 55px;
+			span{
+				font-size: 22px;
+			}
+		}
+	}
 }
 @media only screen and (max-width : 1000px) {
 	.advantages__item{
 		width: 33.33%;
+	}
+	.mini-block{
+		height: 120px;
+		i{
+			top: 30px;
+			left: 20px;
+			span{
+				font-size: 18px;
+			}
+		}
+		.back{
+			top: 38px;
+			span{
+				font-size: 16px;
+			}
+		}
 	}
 }
 @media only screen and (max-width : 770px) {
@@ -154,6 +283,32 @@
 	.galery{
 		.img-wrap{
 			width: 33.33%;
+		}
+	}
+	.mini-blocks::before{
+		display: none;
+	}
+	.mini-block{
+		width: 50%;
+		height: 150px;
+		&:nth-child(3){
+			border-left: none;
+		}
+		&:nth-child(2){
+			border-right: none;
+		}
+		i{
+			top: 40px;
+			left: 30px;
+			span{
+				font-size: 22px;
+			}
+		}
+		.back{
+			top: 48px;
+			span{
+				font-size: 18px;
+			}
 		}
 	}
 }
@@ -178,12 +333,34 @@
 		font-size: 16px;
 		padding-top: 5px;
 	}
+	.mini-block{
+		height: 120px;
+	}
 }
 @media only screen and (max-width : 400px) {
-.advantages__item{
-	width: 100%;
-	padding-left: 20px;
-}
+	.our{
+		margin-top: 0;
+		padding-top: 40px;
+	}
+	.advantages__item{
+		width: 100%;
+		text-align: center;
+	}
+	.mini-block{
+		i{
+			top: 30px;
+			left: 20px;
+			span{
+				font-size: 18px;
+			}
+		}
+		.back{
+			top: 38px;
+			span{
+				font-size: 16px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 320px) {

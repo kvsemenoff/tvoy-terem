@@ -9,9 +9,10 @@
   width: 100%;
   height: 100%;
   z-index: 999;
-  display: none; }
+  display: none;
+  padding-right: 20px; }
 
-/* line 14, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 15, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 #js-form1 {
   z-index: 1000;
   position: fixed;
@@ -22,12 +23,12 @@
   text-align: center;
   font-family: "RobotoSlab-Regular";
   display: none; }
-  /* line 23, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 24, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   #js-form1 p {
     font-size: 24px;
     color: black;
     margin-bottom: 29px; }
-  /* line 28, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 29, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   #js-form1 input[type="text"] {
     outline: none;
     box-shadow: inset 2.5px 4.3px 5px rgba(225, 234, 240, 0.35);
@@ -40,7 +41,7 @@
     font-size: 14px;
     font-family: "RobotoSlab-Regular"; }
 
-/* line 42, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 43, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 #js-form3 {
   z-index: 1000;
   position: fixed;
@@ -51,12 +52,15 @@
   text-align: center;
   font-family: "RobotoSlab-Regular";
   display: none; }
-  /* line 51, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 44, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  #js-form3 h1 {
+    margin-bottom: 20px; }
+  /* line 55, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   #js-form3 p {
     font-size: 24px;
     color: black;
     margin-bottom: 29px; }
-  /* line 56, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 60, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   #js-form3 input[type="text"] {
     outline: none;
     box-shadow: inset 2.5px 4.3px 5px rgba(225, 234, 240, 0.35);
@@ -69,7 +73,7 @@
     font-size: 14px;
     font-family: "RobotoSlab-Regular"; }
 
-/* line 70, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 74, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 #js-form2 {
   z-index: 1000;
   position: fixed;
@@ -80,58 +84,58 @@
   text-align: center;
   font-family: "RobotoSlab-Regular";
   display: none; }
-  /* line 80, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 84, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   #js-form2 p {
     font-size: 24px;
     color: black;
     margin-top: 20px; }
 
-/* line 86, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 90, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-close {
   position: absolute;
   top: -35px;
   right: -50px;
   cursor: pointer; }
 
-/* line 92, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 96, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-button_3 {
   border: none;
   padding-top: 12px !important;
   padding-bottom: 12px !important;
   margin-top: 18px; }
 
-/* line 99, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 103, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 input[type="text"]::-webkit-input-placeholder {
   color: #909ba2; }
 
-/* line 100, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 104, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 input[type="text"]::-moz-input-placeholder {
   color: #909ba2; }
 
-/* line 103, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 107, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .section_db-footer-view {
   background: #000;
   color: #fff;
   font-family: "RobotoSlab-Regular"; }
-  /* line 107, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 111, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .section_db-footer-view a {
     color: #fff;
     border-bottom: 1px dashed #818181;
     font-size: 15px;
     font-family: "RobotoSlab-Regular"; }
-  /* line 113, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 117, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .section_db-footer-view a:hover {
     border-bottom: none;
     color: #c5b4b4; }
 
-/* line 118, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 122, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-up {
   max-width: 320px;
   width: 100%;
   margin: 0 auto;
   text-align: center; }
 
-/* line 124, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 128, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-down {
   max-width: 320px;
   width: 100%;
@@ -139,92 +143,97 @@ input[type="text"]::-moz-input-placeholder {
   margin-top: 20px;
   text-align: center; }
 
-/* line 131, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 135, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-footer-ul {
   padding-bottom: 20px; }
-  /* line 133, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 137, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-footer-ul li {
     padding-bottom: 10px; }
 
-/* line 138, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 142, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-p-one {
   color: #acacac;
   font-size: 13px; }
 
-/* line 142, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 146, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-city {
   background: url("../img/bg-email2.png") no-repeat top left 13px;
   font-size: 10px;
   color: #cebcbc;
   padding: 3px 14px 41px 19px; }
 
-/* line 148, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 152, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-city2 {
   background: url("../img/bg-email.png") no-repeat top left 13px !important;
   font-size: 10px;
   color: #cebcbc;
   padding: 3px 14px 41px 19px; }
 
-/* line 154, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 158, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-p-two {
   color: #cebcbc;
   font-size: 12px; }
 
-/* line 160, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 164, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-p-p2 {
   padding-top: 5px; }
 
-/* line 164, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 168, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-number {
   font-size: 16px;
   color: white;
   font-family: "RobotoSlab-Bold"; }
 
-/* line 169, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 173, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-span-out {
   display: inline-block;
   margin-left: 57px; }
 
-/* line 173, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+/* line 177, ../../OpenServer/domains/terem.loc/css/style-db.scss */
 .db-p-p {
   padding-top: 5px; }
+  /* line 179, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  .db-p-p a {
+    color: #cebcbc;
+    font-size: 12px;
+    border-bottom: none !important; }
 
 @media only screen and (min-width: 992px) {
-  /* line 187, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 196, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-up {
     max-width: unset;
     text-align: left; }
-  /* line 191, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 200, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-down {
     max-width: unset;
     text-align: left;
     margin-top: 0; }
-  /* line 196, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 205, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-footer-ul {
     padding-bottom: 35px; }
-    /* line 198, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+    /* line 207, ../../OpenServer/domains/terem.loc/css/style-db.scss */
     .db-footer-ul li {
       display: inline-block;
       padding-left: 10px; }
-    /* line 203, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+    /* line 212, ../../OpenServer/domains/terem.loc/css/style-db.scss */
     .db-footer-ul li:first-child {
       padding-left: 0px; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 211, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 220, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .section_db-footer-view {
     padding: 40px 0 !important; }
-  /* line 217, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 226, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-footer-ul li {
     padding-left: 23px; }
-  /* line 223, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 232, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-p-two-float {
     float: left; }
-  /* line 226, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 235, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-p-p {
     padding-top: 4px;
     padding-left: 32px; }
-  /* line 230, ../../OpenServer/domains/terem.loc/css/style-db.scss */
+  /* line 239, ../../OpenServer/domains/terem.loc/css/style-db.scss */
   .db-p-p2 {
     padding-top: 18px; } }
 
