@@ -10,6 +10,7 @@
 	height: 100%;
 	z-index: 999;
 	display:none;
+	padding-right: 20px;
 }
 #js-form1{
 	z-index: 1000;
@@ -40,6 +41,9 @@
 	display: none;
 }
 #js-form3{
+	h1{
+		margin-bottom: 20px;
+	}
 	z-index: 1000;
 	position: fixed;
 	top:15%;
@@ -172,6 +176,11 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 }
 .db-p-p{
 	padding-top: 5px;
+	a{
+		color: #cebcbc;
+	font-size: 12px;
+	border-bottom: none !important;
+	}
 
 }
 @media only screen and (min-width : 320px) {

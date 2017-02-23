@@ -10,7 +10,7 @@
 <?php require_once('includes/about.php'); ?>
 <?php require_once('includes/galerea.php'); ?>
 <?php require_once('includes/contact.php'); ?>
-<?php require_once('includes/paper.php'); ?>
+<?php require_once('includes/paper.php'); ?> 
 <?php require_once('includes/footer.php'); ?>
 
 </body>

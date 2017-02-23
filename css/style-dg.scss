@@ -157,7 +157,7 @@ section.header-top {
     padding-top: 13px;
     padding-bottom: 13px;
     min-height: 50px;
-    background: #560001;
+    background: url(/img/headertop.jpg) #560001 0 0 repeat-y;
 }
 .headertop-spb__phone {
     color: #cebcbc;
@@ -237,6 +237,9 @@ section.header-top {
     font-weight: 400;
     padding-bottom: 1px;
     border-bottom: 1px dashed #cebcbc;
+    &:hover {
+        border-bottom: 0;
+    }
 }
 .header-top-btn {
     margin-right: 0;
