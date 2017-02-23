@@ -1,5 +1,9 @@
+
 <section class="section section_padding header-top">
 	<div class="container">
+		<div class="burger">
+			<img src="img/burg2.png" alt="">
+		</div>
 		<div class="row">
 			<div class="col-md-2 col-md-push-5">
 				<div class="header-logo-wrap">
