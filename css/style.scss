@@ -36,46 +36,15 @@ q:before, q:after {
   content: none; 
 }
 
+
 @font-face {
-  font-family: "RobotoSlab-Bold";
-  src: url("../fonts/RobotoSlab-Bold/RobotoSlab-Bold.eot");
-  src: local("☺"), url("../fonts/RobotoSlab-Bold/RobotoSlab-Bold.woff") format("woff"),
-  url("../fonts/RobotoSlab-Bold/RobotoSlab-Bold.ttf") format("truetype"),
-  url("../fonts/RobotoSlab-Bold/RobotoSlab-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-  @font-face {
-  font-family: "RobotoSlab-Light";
-  src: url("../fonts/RobotoSlab-Light/RobotoSlab-Light.eot");
-  src: local("☺"), url("../fonts/RobotoSlab-Light/RobotoSlab-Light.woff") format("woff"),
-  url("../fonts/RobotoSlab-Light/RobotoSlab-Light.ttf") format("truetype"), 
-  url("../fonts/RobotoSlab-Light/RobotoSlab-Light.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-  @font-face {
-  font-family: "RobotoSlab-Regular";
-  src: url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.eot");
-  src: local("☺"), url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.woff") format("woff"), 
-  url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.ttf") format("truetype"), 
-  url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-  @font-face {
-  font-family: "RobotoSlab-Thin";
-  src: url("../fonts/RobotoSlab-Thin/RobotoSlab-Thin.eot");
-  src: local("☺"), url("../fonts/RobotoSlab-Thin/RobotoSlab-Thin.woff") format("woff"), 
-  url("../fonts/RobotoSlab-Thin/RobotoSlab-Thin.ttf") format("truetype"), 
-  url("../fonts/RobotoSlab-Thin/RobotoSlab-Thin.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-   @font-face {
-  font-family: "rouble";
-  src: url("../fonts/rouble/rouble.eot");
-  src: local("☺"), url("../fonts/rouble/rouble.woff") format("woff"), 
-  url("../fonts/rouble/rouble.ttf") format("truetype"), 
-  url("../fonts/rouble/rouble.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+font-family: "rouble";
+src: url("../fonts/rouble/rouble.eot");
+src: local("☺"), url("../fonts/rouble/rouble.woff") format("woff"), 
+url("../fonts/rouble/rouble.ttf") format("truetype"), 
+url("../fonts/rouble/rouble.svg") format("svg");
+font-weight: normal;
+font-style: normal; }
 
 
 
@@ -100,7 +69,9 @@ q:before, q:after {
     background: #fff;
     padding: 47px;
     text-align: center;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     p{
         font-size: 24px;
         color:black;
@@ -116,7 +87,9 @@ q:before, q:after {
         margin-bottom: 21px;
         color: #909ba2;
         font-size: 14px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     }
     display: none;
 }
@@ -131,7 +104,9 @@ q:before, q:after {
     background: #fff;
     padding: 47px;
     text-align: center;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     p{
         font-size: 24px;
         color:black;
@@ -147,7 +122,9 @@ q:before, q:after {
         margin-bottom: 21px;
         color: #909ba2;
         font-size: 14px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     }
     display: none;
 }
@@ -159,7 +136,9 @@ q:before, q:after {
     background: #fff;
     padding: 47px;
     text-align: center;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     display: none;
     p{
         font-size: 24px;
@@ -187,12 +166,16 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .section_db-footer-view{
     background: #000;
     color:#fff;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     a{
         color:#fff;
         border-bottom: 1px dashed #818181; 
         font-size: 15px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     }
     a:hover{
         border-bottom: none; 
@@ -248,7 +231,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .db-number{
     font-size: 16px;
     color: white;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
 }
 .db-span-out{
     display: inline-block;
@@ -332,7 +317,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .dd-title{
     
     color: black;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 29px;
     font-weight: 700;
     
@@ -343,7 +330,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 }
 //Button_1
 .button_1{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size:15px;
     display: inline-block;
     box-shadow: 0 5px 13px rgba(86, 0, 1, 0.3);
@@ -385,7 +374,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
     display:inline-block;
     border: 1px solid #dde6eb;
     font-size:13px;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     color:#99A8B0;
     border-radius:18px;
     height: 36px;
@@ -436,7 +427,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .button_3{
     text-align:center;
     display:inline-block;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size:17px;
     color:#fff;
     padding: 16px 64px;
@@ -473,7 +466,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .button_4{
     display:inline-block;
     color:#fff;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size:12px;
     border: 1px solid #8E6063;
     width: 161px;
@@ -523,19 +518,25 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 .dd-side-title{
     span{
         font-size: 36px;
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         
     }
     p{
         font-size: 24px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
         margin-bottom: 52px;
     }
 }
 .dd-sl-r-title{
     p{
         font-size: 24px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     }
 }
 .dd-slide-box_right{
@@ -543,7 +544,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
     span{
         display: inline-block;
         color: black;
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         font-size: 36px;
         
     }
@@ -578,19 +581,25 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
     span:first-child{
         line-height: 22px;
         color: black;
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         font-size: 16px;
     }
     .dd-date{
         color: #979797;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
         font-size: 13px;
         display: inline-block;
         margin-left: 10px;
     }
     p{
         color: black;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
         font-size: 14px;
         line-height: 22px;
         padding-top: 25px;
@@ -624,7 +633,9 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
         display: inline-block;
         position:relative;
         color:#fff;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
         font-size: 15px;
         border-bottom:1px dashed #818181;
     }
@@ -845,10 +856,14 @@ input[type="text"]::-moz-input-placeholder { color: #909ba2; }
 
 
 section{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
 }
 .about{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     &__wrap{
         padding: 70px 0;
         p{
@@ -857,7 +872,9 @@ section{
     }
 }
 .title-block{
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 36px;
     padding: 0 15px 0 100px;
     font-weight: 400;
@@ -871,7 +888,9 @@ section{
     padding-left: 100px;
 }
 .paper{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     &__wrap{
         margin: 0 -15px;
         .owl-prev, .owl-next{
@@ -907,7 +926,9 @@ section{
         }
     }
     &__title{
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         color: #000;
         font-size: 16px;
         font-size: 15px;
@@ -965,7 +986,9 @@ section{
     margin-top: -110px;
 }
 .advantages{
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 16px;
     &__item{
         padding-bottom: 30px;
@@ -976,10 +999,14 @@ section{
 .advantages p{
     padding-top: 20px;
     font-size: 20px;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
 }
 .title{
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-weight: 400;
     font-size: 60px;
     text-align: center;
@@ -1044,7 +1071,9 @@ section{
         left: 40px;
     }
     span{
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         font-size: 40px;
         display: block;
         color: #fff;
@@ -1249,11 +1278,15 @@ section{
     }
     .descr{
         padding-bottom: 22px;
-        font-family: "RobotoSlab-Regular";
+        font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     }
 }
 .descr{ 
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
 }
 .df-newblock{
     text-align: center;
@@ -1280,7 +1313,9 @@ section{
 }
 .dfsquere{
     color: white;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 16px;
     position: absolute;
     bottom: -25px;
@@ -1297,7 +1332,9 @@ section{
 }
 .df-proect{
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 18px;
     display: inline-block;
     margin-bottom: 15px;
@@ -1312,7 +1349,9 @@ section{
 .dfprice{
     color: black;
     font-size: 22px;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     display: block;
     margin-bottom: 12px;
     span{
@@ -1322,7 +1361,9 @@ section{
 }
 .dfcharacteristicts{
     span:first-child{
-        font-family: "RobotoSlab-Light";
+        font-family: 'Roboto Slab', serif; 
+font-weight:300;
+
         font-size: 12px;
         line-height: 22px;
         color: #99a8b0;
@@ -1331,7 +1372,9 @@ section{
     }
     span:last-child{
         color: black;
-        font-family: "RobotoSlab-Bold";
+        font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
         display: inline-block;
         line-height: 22px;
         font-size: 12px;
@@ -1381,7 +1424,9 @@ section{
 .dfcap{
     font-size: 13px;
     color: #909ba2;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     display: block;
     margin-bottom: 12px;    
     text-align: center;
@@ -1398,7 +1443,9 @@ select:focus, select:active{
     text-align: left;
     max-width: 140px;
     width: 100%;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     display: inline-block;
     margin-bottom: 10px;
     select{    
@@ -1586,28 +1633,36 @@ section.contact {
 
 .contact-title {
     color: black;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 18px;
     font-weight: 700;
 }
 .contact-address {
     font-weight: 400;
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 17px;
     line-height: 17px;
     margin-bottom: 8px;
 }
 .contact-address__span {
     color: #686868;
-    font-family: "RobotoSlab-Light";
+    font-family: 'Roboto Slab', serif; 
+font-weight:300;
+
     font-size: 13px;
     line-height: 20px;
     display: block;
 }
 .contact-tel__span {
     color: black;
-    font-family: "RobotoSlab-Light";
+    font-family: 'Roboto Slab', serif; 
+font-weight:300;
+
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1629,13 +1684,17 @@ section.contact {
 }
 .contact-email {
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 14px;
     font-weight: 400;
 }
 .contact-metroaddr {
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 17px;
     font-weight: 400;
     line-height: 17px;
@@ -1646,7 +1705,9 @@ section.contact {
 }
 .contact-metro__span {
     color: #686868;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 13px;
     font-weight: 400;
     line-height: 32px;
@@ -1662,7 +1723,9 @@ section.application {
     background-repeat: no-repeat;
 }
 h2.application-title {
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 52px;
     font-weight: 700;
     line-height: 44px;
@@ -1671,7 +1734,9 @@ h2.application-title {
 }
 
 span.application-title__span {
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 25px;
     font-weight: 400;
 }
@@ -1686,7 +1751,9 @@ a.apllication-btn {
 }
 .application-toptext {
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-weight: 400;
     font-size: 20px;
     line-height: 22px;
@@ -1707,7 +1774,9 @@ section.header-top {
 }
 .headertop-spb__phone {
     color: #cebcbc;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1720,7 +1789,9 @@ section.header-top {
 }
 .headertop-spb__phonespan {
     color: white;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1778,7 +1849,9 @@ section.header-top {
 }
 .header-topemail__link {
     color: #cebcbc;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 12px;
     font-weight: 400;
     padding-bottom: 1px;
@@ -1887,19 +1960,25 @@ section.header-top {
 
 h1{	
     color: black;
-    font-family: "RobotoSlab-Bold";
+    font-family: 'Roboto Slab', serif; 
+font-weight:700;
+
     font-size: 29px;
     font-weight: 700;
 }
 h2{	
     display: block;
     color: black;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 24px;
 }
 span.h2{
     display: block;
-    font-family: "RobotoSlab-Regular";
+    font-family: 'Roboto Slab', serif; 
+font-weight:400;
+
     font-size: 24px;
     margin-bottom: 50px;
 }
