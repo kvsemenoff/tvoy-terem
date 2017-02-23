@@ -340,9 +340,10 @@
 	left:0;
 	position:absolute;
 	z-index:999;
-	display:none;
+	display:block;
+	outline:1px solid blue;
 	li{
-		margin-right: 0 !important;
+		margin-right: 0 !importantF;
 		display: block;
 		position: relative;
 	}
