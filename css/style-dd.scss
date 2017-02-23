@@ -321,11 +321,12 @@
 	left:0;
 	position:absolute;
 	z-index:999;
-	outline:2px solid blue;
+	// outline:2px solid blue;
 	display:none;
 	li{
 		margin-right: 0;
 		display: block;
+		position: relative;
 	}
 	a{
 		padding: 10px 0px 10px 24px;
@@ -368,10 +369,10 @@
 	padding-top: 25px;
 	padding-bottom: 21px;
 	width: 171px;
-	right:-173px;
+	right:-171px;
+	top:0;
 	background: #fff;
-	z-index:999;
-	outline:1px solid red;
+	z-index:999;	
 }
 
 

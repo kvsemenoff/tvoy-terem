@@ -9,19 +9,19 @@
 							<ul class="dd-sub-menu">
 								<div class="dd-li-wrap">
 									<li><a href="#">Проекты домов</a></li>
-									<li >
+									<li class="dd-li-menu2">
 										<a class="dd-sum_item" href="#">Фото проектов</a>
 										<ul class="dd-sub-menu-2">
 											<li><a href="#">Информация для покупателя</a></li>
 											<li><a href="#">Форма заказа</a></li>
 										</ul>
 									</li>
-									<li>
+									<li class="dd-li-menu2">
 										<a class="dd-sum_item" href="#">Как заказать</a>
-										<!-- <ul class="dd-sub-menu-2">
+										<ul class="dd-sub-menu-2">
 											<li><a href="#">Информация для покупателя</a></li>
 											<li><a href="#">Форма заказа</a></li>
-										</ul> -->
+										</ul>
 									</li>
 									<li><a href="#">Отзывы</a></li>
 								</div>
@@ -41,20 +41,18 @@
 </section>
 
 <script>
-	$('.id_menu').hover(function(){
-		$('ul', this).stop().slideDown(500);
-
+$(function(){
+	$('.dd-sub-menu-2').hide();
+	$('.id_menu').hover(function(){		
+		$(this).find('.dd-sub-menu').stop().slideDown(500);		
 	},function(){
 		$('ul', this).stop().slideUp(500);	
-
 	});
 
-	// $('.id_menu').hover(function(){
-	// 	$('.dd-sub-menu').slideToggle(500);
-
-
-	// 	$(".id_menu").hover(function(){
-	// 		$(".dd-sub-menu").stop(true);
-	// 	});
-	// });
+	$('.dd-li-menu2').hover(function(){
+		$(this).find('ul').stop().slideDown(500);	
+	},function(){
+		$('ul', this).stop().slideUp(300);	
+	});
+});	
 </script>
