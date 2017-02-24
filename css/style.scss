@@ -879,10 +879,10 @@ section{
 .title-block{
 	font-family: 'Roboto Slab', serif; 
 	font-weight:700;
-
-	font-size: 36px;
+    font-size: 34px;
+	// font-size: 36px;
 	padding: 0 15px 0 100px;
-	font-weight: 400;
+
 }
 .descr{
 	font-size: 24px;
@@ -1159,6 +1159,7 @@ section{
 	}
 }
 @media only screen and (max-width : 770px) {
+
 	.paper__wrap{
 		margin: 0;
 	}
@@ -1208,12 +1209,12 @@ section{
 		padding: 0;
 	}
 	.descr{
-		font-size: 16px;
+		font-size: 24px;
 		padding: 0 100px 25px 0;
 	}
-	.title-block{
-		font-size: 18px;
-	}
+	// .title-block{
+	// 	font-size: 18px;
+	// }
 	.advantages__item{
 		width: 50%;
 	}
