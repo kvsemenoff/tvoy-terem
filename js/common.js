@@ -97,6 +97,8 @@ $(id).css("left", winW/2-320/2);
     autoplay:false,
     smartSpeed:1000,
     margin:25,
+    mouseDrag:false,
+    touchDrag: false,
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
         responsive:{
@@ -117,13 +119,14 @@ $(id).css("left", winW/2-320/2);
       });
 
 
-
   var owl3 = $("#dd-owl");
   owl3.owlCarousel({
     loop:true,
     nav:true, 
     autoplay:false,
     smartSpeed:1000,
+    mouseDrag:false,
+    touchDrag: false,
     margin:0,
         center:false,     //если нужны обрезаные края
         navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
@@ -148,6 +151,8 @@ $(id).css("left", winW/2-320/2);
     loop:true,
     nav:true, 
     items:1,
+    mouseDrag:false,
+    touchDrag: false,
     responsive:{
       770:{
        items:2
