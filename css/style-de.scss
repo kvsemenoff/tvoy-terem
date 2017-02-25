@@ -291,10 +291,16 @@ section{
 	.mini-block{
 		width: 50%;
 		height: 150px;
-		&:nth-child(3){
-			border-left: none;
+		&-first{
+			margin-top: 150px;
+		}
+		&-second{
+			margin-left: -50%;
 		}
 		&:nth-child(2){
+			border-left: none;
+		}
+		&:nth-child(3){
 			border-right: none;
 		}
 		i{
@@ -335,6 +341,9 @@ section{
 	}
 	.mini-block{
 		height: 120px;
+		&-first{
+			margin-top: 120px;
+		}
 	}
 }
 @media only screen and (max-width : 400px) {

@@ -73,8 +73,10 @@ section { font-family: "RobotoSlab-Regular"; }
   .galery .img-wrap { width: 33.33%; }
   .mini-blocks::before { display: none; }
   .mini-block { width: 50%; height: 150px; }
-  .mini-block:nth-child(3) { border-left: none; }
-  .mini-block:nth-child(2) { border-right: none; }
+  .mini-block-first { margin-top: 150px; }
+  .mini-block-second { margin-left: -50%; }
+  .mini-block:nth-child(2) { border-left: none; }
+  .mini-block:nth-child(3) { border-right: none; }
   .mini-block i { top: 40px; left: 30px; }
   .mini-block i span { font-size: 22px; }
   .mini-block .back { top: 48px; }
@@ -85,7 +87,8 @@ section { font-family: "RobotoSlab-Regular"; }
   .title-block { font-size: 18px; }
   .advantages__item { width: 50%; }
   .advantages p { font-size: 16px; padding-top: 5px; }
-  .mini-block { height: 120px; } }
+  .mini-block { height: 120px; }
+  .mini-block-first { margin-top: 120px; } }
 @media only screen and (max-width: 400px) { .our { margin-top: 0; padding-top: 40px; }
   .advantages__item { width: 100%; text-align: center; }
   .mini-block i { top: 30px; left: 20px; }
