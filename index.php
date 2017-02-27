@@ -267,13 +267,13 @@
 	$(function(){
 		$('.dd-sub-menu-2').hide();
 		$('.id_menu').hover(function(){		
-			$(this).find('.dd-sub-menu').stop().slideDown(100);		
+			$(this).find('.dd-sub-menu').stop().slideDown(90);		
 		},function(){
 			$('ul', this).stop().slideUp(200);	
 		});
 
 		$('.dd-li-menu2').hover(function(){
-			$(this).find('ul').stop().slideDown(100);	
+			$(this).find('ul').stop().slideDown(90);	
 		},function(){
 			$('ul', this).stop().slideUp(300);	
 		});
